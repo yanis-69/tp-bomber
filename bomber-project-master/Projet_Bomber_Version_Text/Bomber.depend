@@ -1,0 +1,555 @@
+# depslib dependency file v1.0
+1617098908 source:d:\projet sdl\bomber\main.cpp
+	"winTxt.h"
+	"text.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\begin_code.h
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\close_code.h
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576489 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576488 c:\program files (x86)\codeblocks\sdl2\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1617202806 source:d:\projet sdl\bomber\joueur.cpp
+	"joueur.h"
+
+1617205393 source:d:\projet sdl\bomber\terrain.cpp
+	"terrain.h"
+	<iostream>
+	<cassert>
+
+1616539012 d:\projet sdl\bomber\terrain.h
+
+1617202825 d:\projet sdl\bomber\joueur.h
+	"terrain.h"
+
+1616439412 source:d:\projet sdl\bomber\menu.cpp
+	"Menu.h"
+
+1616439045 d:\projet sdl\bomber\menu.h
+	"Define.h"
+
+1617099694 d:\projet sdl\bomber\define.h
+	<iostream>
+	<fstream>
+	<time.h>
+	<vector>
+	<string>
+
+1616484014 source:d:\projet sdl\bomber\clock.cpp
+	"Clock.h"
+
+1616441013 d:\projet sdl\bomber\clock.h
+	"Define.h"
+
+1616483928 source:d:\projet sdl\bomber\fire.cpp
+	"Fire.h"
+
+1616441598 d:\projet sdl\bomber\fire.h
+	"Define.h"
+	"Clock.h"
+
+1618302514 source:d:\projet sdl\bomber\jeu.cpp
+	"joueur.h"
+	"Jeu.h"
+
+1618303760 d:\projet sdl\bomber\jeu.h
+	"joueur.h"
+	"bombe.h"
+	"Adversaire.h"
+
+1618299228 source:d:\projet sdl\bomber\wintxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1618299228 d:\projet sdl\bomber\wintxt.h
+
+1618304300 source:d:\projet sdl\bomber\text.cpp
+	<iostream>
+	<windows.h>
+	<unistd.h>
+	"winTxt.h"
+	"text.h"
+	"Jeu.h"
+	"bombe.h"
+	"Adversaire.h"
+
+1617098895 d:\projet sdl\bomber\text.h
+	"Jeu.h"
+
+1616539012 source:d:\projet sdl\bomber\bombe.cpp
+	"bombe.h"
+
+1616501582 d:\projet sdl\bomber\bombe.h
+	"joueur.h"
+
+1616539012 source:d:\projet sdl\bomber\menutxt.cpp
+	"terrain.h"
+	<iostream>
+
+1618302514 source:d:\projet sdl\bomber\adversaire.cpp
+	"Adversaire.h"
+
+1618302945 d:\projet sdl\bomber\adversaire.h
+	"Define.h"
+	"joueur.h"
+	"terrain.h"
+	"bombe.h"
+
+1618302514 source:c:\users\ilyes\desktop\bomber\adversaire.cpp
+	"Adversaire.h"
+
+1618302945 c:\users\ilyes\desktop\bomber\adversaire.h
+	"Define.h"
+	"joueur.h"
+	"terrain.h"
+	"bombe.h"
+
+1617099694 c:\users\ilyes\desktop\bomber\define.h
+	<iostream>
+	<fstream>
+	<time.h>
+	<vector>
+	<string>
+
+1617202825 c:\users\ilyes\desktop\bomber\joueur.h
+	"terrain.h"
+
+1616539012 c:\users\ilyes\desktop\bomber\terrain.h
+
+1616501582 c:\users\ilyes\desktop\bomber\bombe.h
+	"joueur.h"
+
+1616539012 source:c:\users\ilyes\desktop\bomber\bombe.cpp
+	"bombe.h"
+
+1618302514 source:c:\users\ilyes\desktop\bomber\jeu.cpp
+	"joueur.h"
+	"Jeu.h"
+
+1618303760 c:\users\ilyes\desktop\bomber\jeu.h
+	"joueur.h"
+	"bombe.h"
+	"Adversaire.h"
+
+1617202806 source:c:\users\ilyes\desktop\bomber\joueur.cpp
+	"joueur.h"
+
+1617098908 source:c:\users\ilyes\desktop\bomber\main.cpp
+	"winTxt.h"
+	"text.h"
+
+1618299228 c:\users\ilyes\desktop\bomber\wintxt.h
+
+1617098895 c:\users\ilyes\desktop\bomber\text.h
+	"Jeu.h"
+
+1616539012 source:c:\users\ilyes\desktop\bomber\menutxt.cpp
+	"terrain.h"
+	<iostream>
+
+1617205393 source:c:\users\ilyes\desktop\bomber\terrain.cpp
+	"terrain.h"
+	<iostream>
+	<cassert>
+
+1618304300 source:c:\users\ilyes\desktop\bomber\text.cpp
+	<iostream>
+	<windows.h>
+	<unistd.h>
+	"winTxt.h"
+	"text.h"
+	"Jeu.h"
+	"bombe.h"
+	"Adversaire.h"
+
+1618299228 source:c:\users\ilyes\desktop\bomber\wintxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+

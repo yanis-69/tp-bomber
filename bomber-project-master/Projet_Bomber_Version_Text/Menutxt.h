@@ -1,0 +1,4 @@
+#ifndef MENUTXT_H_INCLUDED
+#define MENUTXT_H_INCLUDED
+
+#endif // MENUTXT_H_INCLUDED
