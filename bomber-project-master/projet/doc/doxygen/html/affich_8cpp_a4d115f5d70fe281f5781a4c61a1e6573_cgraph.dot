@@ -1,0 +1,40 @@
+digraph "Aff"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Aff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="s'occupe de l'affichage SDL"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="bombe::getBombe_x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbombe.html#ad073269da4c1f12fb8509c71fefef956",tooltip="récupère la position de la bombe en x"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="bombe::getBombe_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classbombe.html#a9aa3c213fa42cf5290a7efecdc0bc85c",tooltip="récupère la position de la bombe en y"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Jeu::GetConstBombe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#aa86c48e07d7d67e45b59ba5fa309fd7f",tooltip="récupère la bombe du joueur"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Jeu::GetConstBombe2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#a88772730ea5241f4c8a4da7a00b92e40",tooltip="récupère la bombe de l'ordi 2"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Jeu::GetConstBombe3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#a8ea76dc87d3d6a0630c9db4b9660bf4c",tooltip="récupère la bombe de l'ordi 3"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Jeu::GetConstBombep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#ad1fc57242b6efa66908401ea7102279c",tooltip="récupère la bombe de l'ordi 1"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Jeu::GetConstJoueur",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#aa69b8a47e56142aeec7f131dea87d2ec",tooltip="récupère le joueur"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Jeu::GetConstJoueur2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#a7e9bf65ddd85c03135ebd0a20f022710",tooltip="récupère l'ordi 2"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Jeu::GetConstJoueur3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#a1e3546a6e0cbbe41b09683ee9f58e44d",tooltip="récupère l'ordi 3"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Jeu::GetConstJoueurp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#a7eb10e50a81b8039a232453811ae4327",tooltip="récupère l'ordi 1"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Jeu::GetConstTerrain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#aeab7a7e56961714c31879f1724b908b0",tooltip="récupère un terrain"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="terrain::getDimX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classterrain.html#af74e60acdf88633cdca5994db09411e7",tooltip="récupère la dimension en x"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="terrain::getDimY",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classterrain.html#a519ffe73d9e51bb75a23c5c897246b15",tooltip="récupère la dimension en y"];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="terrain::getTerain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classterrain.html#a2094b312c238ba64064a9039f8e83235",tooltip="récupère la caractère en x et y"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="joueur::getX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjoueur.html#ac2092f62ef1098554a9c1f8d8c17652e",tooltip="réupère x"];
+  Node1 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="joueur::getY",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjoueur.html#a970f12e6816e71032a91611ee8a51a96",tooltip="récupère y"];
+}

@@ -1,0 +1,148 @@
+.TH "bombe" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+bombe
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <bombe\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBSetx\fP (int xe)"
+.br
+.RI "actualise la position en x "
+.ti -1c
+.RI "int \fBSety\fP (int ye)"
+.br
+.RI "acutalise la position de la bombe en y "
+.ti -1c
+.RI "int \fBgetBombe_x\fP () const"
+.br
+.RI "récupère la position de la bombe en x "
+.ti -1c
+.RI "int \fBgetBombe_y\fP () const"
+.br
+.RI "récupère la position de la bombe en y "
+.ti -1c
+.RI "\fBbombe\fP ()"
+.br
+.RI "Construct a new \fBbombe::bombe\fP object\&. "
+.ti -1c
+.RI "const \fBjoueur\fP & \fBGetConstJoueur\fP () const"
+.br
+.ti -1c
+.RI "void \fBpose\fP ()"
+.br
+.RI "réduit le nombre de bombe lorqu'on pose "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBnb_bombe\fP"
+.br
+.ti -1c
+.RI "bool \fBestpose\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file bombe\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "bombe::bombe ()"
+
+.PP
+Construct a new \fBbombe::bombe\fP object\&. 
+.PP
+Definition at line 6 of file bombe\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int bombe::getBombe_x () const"
+
+.PP
+récupère la position de la bombe en x 
+.PP
+\fBReturns\fP
+.RS 4
+int la position de la bombe en x 
+.RE
+.PP
+
+.PP
+Definition at line 44 of file bombe\&.cpp\&.
+.SS "int bombe::getBombe_y () const"
+
+.PP
+récupère la position de la bombe en y 
+.PP
+\fBReturns\fP
+.RS 4
+int la position de la bombe en y 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file bombe\&.cpp\&.
+.SS "const \fBjoueur\fP& bombe::GetConstJoueur () const"
+
+.SS "void bombe::pose ()"
+
+.PP
+réduit le nombre de bombe lorqu'on pose 
+.PP
+Definition at line 63 of file bombe\&.cpp\&.
+.SS "int bombe::Setx (int xe)"
+
+.PP
+actualise la position en x 
+.PP
+\fBParameters\fP
+.RS 4
+\fIxe\fP nouveau x 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int la nouvelle position de x 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file bombe\&.cpp\&.
+.SS "int bombe::Sety (int ye)"
+
+.PP
+acutalise la position de la bombe en y 
+.PP
+\fBParameters\fP
+.RS 4
+\fIye\fP nouveau y 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int la nouvelle position de la bombe en y 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file bombe\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool bombe::estpose"
+
+.PP
+Definition at line 21 of file bombe\&.h\&.
+.SS "int bombe::nb_bombe"
+
+.PP
+Definition at line 17 of file bombe\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

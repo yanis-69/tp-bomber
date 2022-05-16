@@ -1,0 +1,364 @@
+\hypertarget{classjoueur}{}\doxysection{joueur Class Reference}
+\label{classjoueur}\index{joueur@{joueur}}
+
+
+{\ttfamily \#include $<$joueur.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classjoueur_a0262ee78a9e855d52ffdb651d2312c56}{joueur}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new joueur object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classjoueur_a62a70913616eabcbdd0621044c9ecf2d}{gauche}} (const \mbox{\hyperlink{classterrain}{terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em demande un mouvements a gauche \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classjoueur_aecaafc6b6e676e84cdafcb248b48c9af}{droite}} (const \mbox{\hyperlink{classterrain}{terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em demande un mouvements a droite \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961}{haut}} (const \mbox{\hyperlink{classterrain}{terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em demande un mouvements en haut \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classjoueur_af49910ac956c22758f7117ba2b901be4}{bas}} (const \mbox{\hyperlink{classterrain}{terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em demande un mouvements en bas \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classjoueur_aa54745621c6fc5a5ab792b25f4156b47}{get\+\_\+jtue}} () const
+\begin{DoxyCompactList}\small\item\em recupère le nombre de tué \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classjoueur_aad868e4226b4f0e1cc24a67cccda858e}{Set\+\_\+jtue}} (int j)
+\begin{DoxyCompactList}\small\item\em tue un ordi \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classjoueur_ac2092f62ef1098554a9c1f8d8c17652e}{getX}} () const
+\begin{DoxyCompactList}\small\item\em réupère x \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classjoueur_a970f12e6816e71032a91611ee8a51a96}{getY}} () const
+\begin{DoxyCompactList}\small\item\em récupère y \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classjoueur_ad0725917b5ae7532c3a517282cf342e9}{Setx}} (int y)
+\begin{DoxyCompactList}\small\item\em défini x \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classjoueur_a4301218b5e964987b2d6c03a8b2cf81f}{Sety}} (int x)
+\begin{DoxyCompactList}\small\item\em défini y \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classjoueur_adcd0602be958ff257ed6f037c30da581}{getvie}} () const
+\begin{DoxyCompactList}\small\item\em récupère la vie \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classjoueur_a94c4f250911d12e57fe40a4edc4f6f74}{Setvie}} (int v)
+\begin{DoxyCompactList}\small\item\em modifie la vie acutelle \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file joueur.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classjoueur_a0262ee78a9e855d52ffdb651d2312c56}\label{classjoueur_a0262ee78a9e855d52ffdb651d2312c56}} 
+\index{joueur@{joueur}!joueur@{joueur}}
+\index{joueur@{joueur}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{joueur()}{joueur()}}
+{\footnotesize\ttfamily joueur\+::joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new joueur object. 
+
+Construct a new \mbox{\hyperlink{classjoueur_a0262ee78a9e855d52ffdb651d2312c56}{joueur\+::joueur}} object.
+
+Definition at line 7 of file joueur.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classjoueur_af49910ac956c22758f7117ba2b901be4}\label{classjoueur_af49910ac956c22758f7117ba2b901be4}} 
+\index{joueur@{joueur}!bas@{bas}}
+\index{bas@{bas}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{bas()}{bas()}}
+{\footnotesize\ttfamily void joueur\+::bas (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classterrain}{terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+demande un mouvements en bas 
+
+bouge si possible le joeuur en bas
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & le terrain de jeu\\
+\hline
+{\em t} & prend paramètre le terrain \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 70 of file joueur.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 0
+\mbox{\Hypertarget{classjoueur_aecaafc6b6e676e84cdafcb248b48c9af}\label{classjoueur_aecaafc6b6e676e84cdafcb248b48c9af}} 
+\index{joueur@{joueur}!droite@{droite}}
+\index{droite@{droite}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{droite()}{droite()}}
+{\footnotesize\ttfamily void joueur\+::droite (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classterrain}{terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+demande un mouvements a droite 
+
+bouge si possible le joeuur à droite
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & le terrain de jeu\\
+\hline
+{\em t} & prend paramètre le terrain \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 50 of file joueur.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{classjoueur_a62a70913616eabcbdd0621044c9ecf2d}\label{classjoueur_a62a70913616eabcbdd0621044c9ecf2d}} 
+\index{joueur@{joueur}!gauche@{gauche}}
+\index{gauche@{gauche}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{gauche()}{gauche()}}
+{\footnotesize\ttfamily void joueur\+::gauche (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classterrain}{terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+demande un mouvements a gauche 
+
+bouge si possible le joeuur à gauche
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & le terrain de jeu\\
+\hline
+{\em t} & prend paramètre le terrain \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 40 of file joueur.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{classjoueur_aa54745621c6fc5a5ab792b25f4156b47}\label{classjoueur_aa54745621c6fc5a5ab792b25f4156b47}} 
+\index{joueur@{joueur}!get\_jtue@{get\_jtue}}
+\index{get\_jtue@{get\_jtue}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{get\_jtue()}{get\_jtue()}}
+{\footnotesize\ttfamily int joueur\+::get\+\_\+jtue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+recupère le nombre de tué 
+
+obtient le nombre de tué
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 122 of file joueur.\+cpp.
+
+\mbox{\Hypertarget{classjoueur_adcd0602be958ff257ed6f037c30da581}\label{classjoueur_adcd0602be958ff257ed6f037c30da581}} 
+\index{joueur@{joueur}!getvie@{getvie}}
+\index{getvie@{getvie}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{getvie()}{getvie()}}
+{\footnotesize\ttfamily int joueur\+::getvie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+récupère la vie 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 132 of file joueur.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{classjoueur_ac2092f62ef1098554a9c1f8d8c17652e}\label{classjoueur_ac2092f62ef1098554a9c1f8d8c17652e}} 
+\index{joueur@{joueur}!getX@{getX}}
+\index{getX@{getX}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily int joueur\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+réupère x 
+
+obtient la position en x
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file joueur.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{classjoueur_a970f12e6816e71032a91611ee8a51a96}\label{classjoueur_a970f12e6816e71032a91611ee8a51a96}} 
+\index{joueur@{joueur}!getY@{getY}}
+\index{getY@{getY}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int joueur\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+récupère y 
+
+obtient la postiion en y
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 112 of file joueur.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961}\label{classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961}} 
+\index{joueur@{joueur}!haut@{haut}}
+\index{haut@{haut}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{haut()}{haut()}}
+{\footnotesize\ttfamily void joueur\+::haut (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classterrain}{terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+demande un mouvements en haut 
+
+bouge si possible le joeuur en haut
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & le terrain de jeu\\
+\hline
+{\em t} & prend paramètre le terrain \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 60 of file joueur.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{classjoueur_aad868e4226b4f0e1cc24a67cccda858e}\label{classjoueur_aad868e4226b4f0e1cc24a67cccda858e}} 
+\index{joueur@{joueur}!Set\_jtue@{Set\_jtue}}
+\index{Set\_jtue@{Set\_jtue}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{Set\_jtue()}{Set\_jtue()}}
+{\footnotesize\ttfamily int joueur\+::\+Set\+\_\+jtue (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+tue un ordi 
+
+actualise le nombre de joeur tué
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em j} & prend en paramètre un int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file joueur.\+cpp.
+
+\mbox{\Hypertarget{classjoueur_a94c4f250911d12e57fe40a4edc4f6f74}\label{classjoueur_a94c4f250911d12e57fe40a4edc4f6f74}} 
+\index{joueur@{joueur}!Setvie@{Setvie}}
+\index{Setvie@{Setvie}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{Setvie()}{Setvie()}}
+{\footnotesize\ttfamily int joueur\+::\+Setvie (\begin{DoxyParamCaption}\item[{int}]{v }\end{DoxyParamCaption})}
+
+
+
+modifie la vie acutelle 
+
+acutalise la vie du joueur
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em v} & prend en paramètre le nouvelle vie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int return le nombre de vie actuelle 
+\end{DoxyReturn}
+
+
+Definition at line 81 of file joueur.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{classjoueur_ad0725917b5ae7532c3a517282cf342e9}\label{classjoueur_ad0725917b5ae7532c3a517282cf342e9}} 
+\index{joueur@{joueur}!Setx@{Setx}}
+\index{Setx@{Setx}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{Setx()}{Setx()}}
+{\footnotesize\ttfamily void joueur\+::\+Setx (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+défini x 
+
+acutalise la position en x
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \\
+\hline
+{\em y} & return la nouvelle position en x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file joueur.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{classjoueur_a4301218b5e964987b2d6c03a8b2cf81f}\label{classjoueur_a4301218b5e964987b2d6c03a8b2cf81f}} 
+\index{joueur@{joueur}!Sety@{Sety}}
+\index{Sety@{Sety}!joueur@{joueur}}
+\doxysubsubsection{\texorpdfstring{Sety()}{Sety()}}
+{\footnotesize\ttfamily void joueur\+::\+Sety (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+défini y 
+
+acutalise la position en y
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em x} & return la nouvelle position en y \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 30 of file joueur.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 9
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{joueur_8h}{joueur.\+h}}\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{joueur_8cpp}{joueur.\+cpp}}\end{DoxyCompactItemize}

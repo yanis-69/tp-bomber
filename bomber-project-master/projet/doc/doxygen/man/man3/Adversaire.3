@@ -1,0 +1,165 @@
+.TH "Adversaire" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Adversaire
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Adversaire\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAdversaire\fP ()"
+.br
+.ti -1c
+.RI "void \fBdeplacer\fP (\fBterrain\fP &t, \fBjoueur\fP &j, int direction)"
+.br
+.RI "déplace le joueur selon une direction donné "
+.ti -1c
+.RI "int \fBaction\fP (\fBjoueur\fP jp, \fBjoueur\fP j, \fBbombe\fP bp, \fBbombe\fP b, \fBterrain\fP &t)"
+.br
+.RI "Défini la priorité du bot selon les actions autour de lui\&. "
+.ti -1c
+.RI "int \fBrand_a_b\fP (int a, int b)"
+.br
+.RI "fonction rand "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBx\fP"
+.br
+.RI "prioité pour les bots "
+.ti -1c
+.RI "int \fBy\fP"
+.br
+.ti -1c
+.RI "int \fBrand_dir\fP"
+.br
+.ti -1c
+.RI "\fBjoueur\fP \fBordi\fP"
+.br
+.ti -1c
+.RI "int \fBpriorite_actuelle\fP =0"
+.br
+.ti -1c
+.RI "int \fBpriorite_actuelle2\fP =0"
+.br
+.ti -1c
+.RI "int \fBpriorite_actuelle3\fP =0"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 8 of file Adversaire\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Adversaire::Adversaire ()"
+
+.PP
+Definition at line 5 of file Adversaire\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int Adversaire::action (\fBjoueur\fP jp, \fBjoueur\fP j, \fBbombe\fP bp, \fBbombe\fP b, \fBterrain\fP & t)"
+
+.PP
+Défini la priorité du bot selon les actions autour de lui\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIjp\fP {prend en paramèter un joueur (l'ordi)} 
+.br
+\fIj\fP {prend un paramètre le player } 
+.br
+\fIbp\fP {bombe ordi} 
+.br
+\fIb\fP {bombe joueur} 
+.br
+\fIt\fP { terrain sur leqeul on joue } 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int {retourne la priorité } 
+.RE
+.PP
+
+.PP
+Definition at line 66 of file Adversaire\&.cpp\&.
+.SS "void Adversaire::deplacer (\fBterrain\fP & t, \fBjoueur\fP & j, int direction)"
+
+.PP
+déplace le joueur selon une direction donné 
+.PP
+\fBParameters\fP
+.RS 4
+\fIt\fP prend en paramètre un terrain 
+.br
+\fIj\fP prend en paramètre un ordinateur 
+.br
+\fIdirection\fP prend en paramète une direction entre 0 et 3 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file Adversaire\&.cpp\&.
+.SS "int Adversaire::rand_a_b (int a, int b)"
+
+.PP
+fonction rand 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP {minimum} 
+.br
+\fIb\fP {maximum} 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int {return un nombre aléatoire} 
+.RE
+.PP
+
+.PP
+Definition at line 115 of file Adversaire\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBjoueur\fP Adversaire::ordi"
+
+.PP
+Definition at line 19 of file Adversaire\&.h\&.
+.SS "int Adversaire::priorite_actuelle =0"
+
+.PP
+Definition at line 20 of file Adversaire\&.h\&.
+.SS "int Adversaire::priorite_actuelle2 =0"
+
+.PP
+Definition at line 21 of file Adversaire\&.h\&.
+.SS "int Adversaire::priorite_actuelle3 =0"
+
+.PP
+Definition at line 22 of file Adversaire\&.h\&.
+.SS "int Adversaire::rand_dir"
+
+.PP
+Definition at line 18 of file Adversaire\&.h\&.
+.SS "int Adversaire::x"
+
+.PP
+prioité pour les bots 
+.PP
+Definition at line 18 of file Adversaire\&.h\&.
+.SS "int Adversaire::y"
+
+.PP
+Definition at line 18 of file Adversaire\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

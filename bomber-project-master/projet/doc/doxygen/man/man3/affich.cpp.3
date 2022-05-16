@@ -1,0 +1,68 @@
+.TH "src/affich.cpp" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/affich.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'affiche\&.h'\fP
+.br
+\fC#include <unistd\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBAff\fP (const \fBJeu\fP &jeu, SDL_Renderer *renderer, SDL_Surface *clips_actuel_j1)"
+.br
+.RI "s'occupe de l'affichage SDL "
+.ti -1c
+.RI "void \fBboucle\fP (\fBJeu\fP &jeu, SDL_Renderer *renderer)"
+.br
+.RI "s'occupe de la partie action du jeu et de appel Aff "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void Aff (const \fBJeu\fP & jeu, SDL_Renderer * renderer, SDL_Surface * clips_actuel_j1)"
+
+.PP
+s'occupe de l'affichage SDL 
+.PP
+\fBParameters\fP
+.RS 4
+\fIjeu\fP prend en paramète le jeu actuel 
+.br
+\fIrenderer\fP prend en paramètre le renderer qui affiche 
+.br
+\fIclips_actuel_j1\fP prend en paramètre le clip d'animation du joueur 
+.RE
+.PP
+
+.PP
+Definition at line 14 of file affich\&.cpp\&.
+.SS "void boucle (\fBJeu\fP & jeu, SDL_Renderer * renderer)"
+
+.PP
+s'occupe de la partie action du jeu et de appel Aff boucle de jeu
+.PP
+\fBParameters\fP
+.RS 4
+\fIjeu\fP {prend en paramètre un jeu} 
+.br
+\fIrenderer\fP { prend en paramètre un renderer pour l'affichage} 
+.RE
+.PP
+g�re l'ordi plac� cot� haut droit
+.PP
+g�re l'ordi plac� cot� Bas Gauche
+.PP
+g�re l'ordi plac� cot� Bas Droit
+.PP
+g�re les d�placements du joueur principal
+.PP
+Definition at line 188 of file affich\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

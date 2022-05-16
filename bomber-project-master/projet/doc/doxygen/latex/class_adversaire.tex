@@ -1,0 +1,269 @@
+\hypertarget{class_adversaire}{}\doxysection{Adversaire Class Reference}
+\label{class_adversaire}\index{Adversaire@{Adversaire}}
+
+
+{\ttfamily \#include $<$Adversaire.\+h$>$}
+
+
+
+Collaboration diagram for Adversaire\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_adversaire_a370755e176eeccec79136e5386231b6a}{Adversaire}} ()
+\item 
+void \mbox{\hyperlink{class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35}{deplacer}} (\mbox{\hyperlink{classterrain}{terrain}} \&t, \mbox{\hyperlink{classjoueur}{joueur}} \&j, int direction)
+\begin{DoxyCompactList}\small\item\em deplace le joueur j dans une direction donné \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12}{action}} (\mbox{\hyperlink{classjoueur}{joueur}} jp, \mbox{\hyperlink{classjoueur}{joueur}} j, \mbox{\hyperlink{classbombe}{bombe}} bp, \mbox{\hyperlink{classbombe}{bombe}} b, \mbox{\hyperlink{classterrain}{terrain}} \&t)
+\begin{DoxyCompactList}\small\item\em récupère la priorité actuel en fonction des évenements \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd}{rand\+\_\+a\+\_\+b}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em génère un random \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_adversaire_adf878b02e6ebcafaac1980d5e2d113b3}{x}}
+\begin{DoxyCompactList}\small\item\em prioité pour les bots \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_adversaire_a768aef883fa6acb2005ba9edf9191af7}{y}}
+\item 
+int \mbox{\hyperlink{class_adversaire_a7f1f513dd0dcf489692f7ec12e7c1e3f}{rand\+\_\+dir}}
+\item 
+\mbox{\hyperlink{classjoueur}{joueur}} \mbox{\hyperlink{class_adversaire_a31278fe98663e0d1be66242a9698a90d}{ordi}}
+\item 
+int \mbox{\hyperlink{class_adversaire_adb66e9feb6ddf000ac726a97ee496e76}{priorite\+\_\+actuelle}} =0
+\item 
+int \mbox{\hyperlink{class_adversaire_a4f1f7314a2d4bc144e61f0dbbad82a96}{priorite\+\_\+actuelle2}} =0
+\item 
+int \mbox{\hyperlink{class_adversaire_aa3da1ab216a16416c14222311d992cb7}{priorite\+\_\+actuelle3}} =0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 8 of file Adversaire.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_adversaire_a370755e176eeccec79136e5386231b6a}\label{class_adversaire_a370755e176eeccec79136e5386231b6a}} 
+\index{Adversaire@{Adversaire}!Adversaire@{Adversaire}}
+\index{Adversaire@{Adversaire}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{Adversaire()}{Adversaire()}}
+{\footnotesize\ttfamily Adversaire\+::\+Adversaire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 5 of file Adversaire.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12}\label{class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12}} 
+\index{Adversaire@{Adversaire}!action@{action}}
+\index{action@{action}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{action()}{action()}}
+{\footnotesize\ttfamily int Adversaire\+::action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classjoueur}{joueur}}}]{jp,  }\item[{\mbox{\hyperlink{classjoueur}{joueur}}}]{j,  }\item[{\mbox{\hyperlink{classbombe}{bombe}}}]{bp,  }\item[{\mbox{\hyperlink{classbombe}{bombe}}}]{b,  }\item[{\mbox{\hyperlink{classterrain}{terrain}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+récupère la priorité actuel en fonction des évenements 
+
+Défini la priorité du bot selon les actions autour de lui.
+
+
+\begin{DoxyParams}{Parameters}
+{\em jp} & \\
+\hline
+{\em j} & \\
+\hline
+{\em bp} & \\
+\hline
+{\em b} & \\
+\hline
+{\em t} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em jp} & \{prend en paramèter un joueur (l\textquotesingle{}ordi)\} \\
+\hline
+{\em j} & \{prend un paramètre le player \} \\
+\hline
+{\em bp} & \{bombe ordi\} \\
+\hline
+{\em b} & \{bombe joueur\} \\
+\hline
+{\em t} & \{ terrain sur leqeul on joue \} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int \{retourne la priorité \} 
+\end{DoxyReturn}
+
+
+Definition at line 66 of file Adversaire.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35}\label{class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35}} 
+\index{Adversaire@{Adversaire}!deplacer@{deplacer}}
+\index{deplacer@{deplacer}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{deplacer()}{deplacer()}}
+{\footnotesize\ttfamily void Adversaire\+::deplacer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classterrain}{terrain}} \&}]{t,  }\item[{\mbox{\hyperlink{classjoueur}{joueur}} \&}]{j,  }\item[{int}]{direction }\end{DoxyParamCaption})}
+
+
+
+deplace le joueur j dans une direction donné 
+
+déplace le joueur selon une direction donné
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \\
+\hline
+{\em j} & \\
+\hline
+{\em direction} & \\
+\hline
+{\em t} & prend en paramètre un terrain \\
+\hline
+{\em j} & prend en paramètre un ordinateur \\
+\hline
+{\em direction} & prend en paramète une direction entre 0 et 3 \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 18 of file Adversaire.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 3
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd}\label{class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd}} 
+\index{Adversaire@{Adversaire}!rand\_a\_b@{rand\_a\_b}}
+\index{rand\_a\_b@{rand\_a\_b}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{rand\_a\_b()}{rand\_a\_b()}}
+{\footnotesize\ttfamily int Adversaire\+::rand\+\_\+a\+\_\+b (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+
+
+génère un random 
+
+fonction rand
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \{minimum\} \\
+\hline
+{\em b} & \{maximum\} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int \{return un nombre aléatoire\} 
+\end{DoxyReturn}
+
+
+Definition at line 115 of file Adversaire.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 5
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_adversaire_a31278fe98663e0d1be66242a9698a90d}\label{class_adversaire_a31278fe98663e0d1be66242a9698a90d}} 
+\index{Adversaire@{Adversaire}!ordi@{ordi}}
+\index{ordi@{ordi}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{ordi}{ordi}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classjoueur}{joueur}} Adversaire\+::ordi}
+
+
+
+Definition at line 19 of file Adversaire.\+h.
+
+\mbox{\Hypertarget{class_adversaire_adb66e9feb6ddf000ac726a97ee496e76}\label{class_adversaire_adb66e9feb6ddf000ac726a97ee496e76}} 
+\index{Adversaire@{Adversaire}!priorite\_actuelle@{priorite\_actuelle}}
+\index{priorite\_actuelle@{priorite\_actuelle}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{priorite\_actuelle}{priorite\_actuelle}}
+{\footnotesize\ttfamily int Adversaire\+::priorite\+\_\+actuelle =0}
+
+
+
+Definition at line 20 of file Adversaire.\+h.
+
+\mbox{\Hypertarget{class_adversaire_a4f1f7314a2d4bc144e61f0dbbad82a96}\label{class_adversaire_a4f1f7314a2d4bc144e61f0dbbad82a96}} 
+\index{Adversaire@{Adversaire}!priorite\_actuelle2@{priorite\_actuelle2}}
+\index{priorite\_actuelle2@{priorite\_actuelle2}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{priorite\_actuelle2}{priorite\_actuelle2}}
+{\footnotesize\ttfamily int Adversaire\+::priorite\+\_\+actuelle2 =0}
+
+
+
+Definition at line 21 of file Adversaire.\+h.
+
+\mbox{\Hypertarget{class_adversaire_aa3da1ab216a16416c14222311d992cb7}\label{class_adversaire_aa3da1ab216a16416c14222311d992cb7}} 
+\index{Adversaire@{Adversaire}!priorite\_actuelle3@{priorite\_actuelle3}}
+\index{priorite\_actuelle3@{priorite\_actuelle3}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{priorite\_actuelle3}{priorite\_actuelle3}}
+{\footnotesize\ttfamily int Adversaire\+::priorite\+\_\+actuelle3 =0}
+
+
+
+Definition at line 22 of file Adversaire.\+h.
+
+\mbox{\Hypertarget{class_adversaire_a7f1f513dd0dcf489692f7ec12e7c1e3f}\label{class_adversaire_a7f1f513dd0dcf489692f7ec12e7c1e3f}} 
+\index{Adversaire@{Adversaire}!rand\_dir@{rand\_dir}}
+\index{rand\_dir@{rand\_dir}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{rand\_dir}{rand\_dir}}
+{\footnotesize\ttfamily int Adversaire\+::rand\+\_\+dir}
+
+
+
+Definition at line 18 of file Adversaire.\+h.
+
+\mbox{\Hypertarget{class_adversaire_adf878b02e6ebcafaac1980d5e2d113b3}\label{class_adversaire_adf878b02e6ebcafaac1980d5e2d113b3}} 
+\index{Adversaire@{Adversaire}!x@{x}}
+\index{x@{x}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int Adversaire\+::x}
+
+
+
+prioité pour les bots 
+
+
+
+Definition at line 18 of file Adversaire.\+h.
+
+\mbox{\Hypertarget{class_adversaire_a768aef883fa6acb2005ba9edf9191af7}\label{class_adversaire_a768aef883fa6acb2005ba9edf9191af7}} 
+\index{Adversaire@{Adversaire}!y@{y}}
+\index{y@{y}!Adversaire@{Adversaire}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int Adversaire\+::y}
+
+
+
+Definition at line 18 of file Adversaire.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{_adversaire_8h}{Adversaire.\+h}}\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{_adversaire_8cpp}{Adversaire.\+cpp}}\end{DoxyCompactItemize}

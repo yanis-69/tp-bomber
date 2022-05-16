@@ -1,0 +1,273 @@
+\hypertarget{classterrain}{}\doxysection{terrain Class Reference}
+\label{classterrain}\index{terrain@{terrain}}
+
+
+{\ttfamily \#include $<$terrain.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classterrain_a97d75c16b1226be3898577ea99d8b4ad}{terrain}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new terrain object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classterrain_a1c55449cae9746b369600bf345f6a209}{terrain}} (const char ter\mbox{[}21\mbox{]}\mbox{[}21\mbox{]})
+\begin{DoxyCompactList}\small\item\em Construct a new terrain object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classterrain_a54d1c0bd769541db3509efe843bc0845}{Position\+Valide}} (const int x, const int y) const
+\begin{DoxyCompactList}\small\item\em vérifie si la position est valide \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classterrain_a03f0a79123d559f2c072dd17fc89d9f7}{get\+XY}} (const int x, const int y) const
+\begin{DoxyCompactList}\small\item\em récupère le carctère en x et y \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classterrain_a2094b312c238ba64064a9039f8e83235}{get\+Terain}} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em récupère la caractère en x et y \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classterrain_aac1ac15ea2b7c01d83fd0ba03a3ed46d}{set\+Terrain}} (int x, int y, char c)
+\begin{DoxyCompactList}\small\item\em modifie le caractère du terrain \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classterrain_af74e60acdf88633cdca5994db09411e7}{get\+DimX}} () const
+\begin{DoxyCompactList}\small\item\em récupère la dimension en x \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classterrain_a519ffe73d9e51bb75a23c5c897246b15}{get\+DimY}} () const
+\begin{DoxyCompactList}\small\item\em récupère la dimension en y \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 12 of file terrain.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classterrain_a97d75c16b1226be3898577ea99d8b4ad}\label{classterrain_a97d75c16b1226be3898577ea99d8b4ad}} 
+\index{terrain@{terrain}!terrain@{terrain}}
+\index{terrain@{terrain}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{terrain()}{terrain()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily terrain\+::terrain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new terrain object. 
+
+Construct a new \mbox{\hyperlink{classterrain_a97d75c16b1226be3898577ea99d8b4ad}{terrain\+::terrain}} object.
+
+Definition at line 40 of file terrain.\+cpp.
+
+\mbox{\Hypertarget{classterrain_a1c55449cae9746b369600bf345f6a209}\label{classterrain_a1c55449cae9746b369600bf345f6a209}} 
+\index{terrain@{terrain}!terrain@{terrain}}
+\index{terrain@{terrain}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{terrain()}{terrain()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily terrain\+::terrain (\begin{DoxyParamCaption}\item[{const char}]{ter\mbox{[}21\mbox{]}\mbox{[}21\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Construct a new terrain object. 
+
+Construct a new \mbox{\hyperlink{classterrain_a97d75c16b1226be3898577ea99d8b4ad}{terrain\+::terrain}} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ter} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 64 of file terrain.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classterrain_af74e60acdf88633cdca5994db09411e7}\label{classterrain_af74e60acdf88633cdca5994db09411e7}} 
+\index{terrain@{terrain}!getDimX@{getDimX}}
+\index{getDimX@{getDimX}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{getDimX()}{getDimX()}}
+{\footnotesize\ttfamily int terrain\+::get\+DimX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+récupère la dimension en x 
+
+récupère les dimensions du terrain horizontale
+
+\begin{DoxyReturn}{Returns}
+int
+
+int les dimensions en x 
+\end{DoxyReturn}
+
+
+Definition at line 156 of file terrain.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 0
+\mbox{\Hypertarget{classterrain_a519ffe73d9e51bb75a23c5c897246b15}\label{classterrain_a519ffe73d9e51bb75a23c5c897246b15}} 
+\index{terrain@{terrain}!getDimY@{getDimY}}
+\index{getDimY@{getDimY}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{getDimY()}{getDimY()}}
+{\footnotesize\ttfamily int terrain\+::get\+DimY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+récupère la dimension en y 
+
+récupère les dimensions du terrain verticale
+
+\begin{DoxyReturn}{Returns}
+int
+
+int les dimensions en y 
+\end{DoxyReturn}
+
+
+Definition at line 168 of file terrain.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{classterrain_a2094b312c238ba64064a9039f8e83235}\label{classterrain_a2094b312c238ba64064a9039f8e83235}} 
+\index{terrain@{terrain}!getTerain@{getTerain}}
+\index{getTerain@{getTerain}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{getTerain()}{getTerain()}}
+{\footnotesize\ttfamily char terrain\+::get\+Terain (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+récupère la caractère en x et y 
+
+récupère la valeur du terrain en x et y donné
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char la valeur du terrain 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file terrain.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{classterrain_a03f0a79123d559f2c072dd17fc89d9f7}\label{classterrain_a03f0a79123d559f2c072dd17fc89d9f7}} 
+\index{terrain@{terrain}!getXY@{getXY}}
+\index{getXY@{getXY}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{getXY()}{getXY()}}
+{\footnotesize\ttfamily char terrain\+::get\+XY (\begin{DoxyParamCaption}\item[{const int}]{x,  }\item[{const int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+récupère le carctère en x et y 
+
+récupère la valeur en x et y du terrain
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+
+
+Definition at line 140 of file terrain.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{classterrain_a54d1c0bd769541db3509efe843bc0845}\label{classterrain_a54d1c0bd769541db3509efe843bc0845}} 
+\index{terrain@{terrain}!PositionValide@{PositionValide}}
+\index{PositionValide@{PositionValide}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{PositionValide()}{PositionValide()}}
+{\footnotesize\ttfamily bool terrain\+::\+Position\+Valide (\begin{DoxyParamCaption}\item[{const int}]{x,  }\item[{const int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+vérifie si la position est valide 
+
+vérifie si il n\textquotesingle{}y a pas d\textquotesingle{}obstacle
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si on peut passer 
+
+false si il y a un obstacle
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si on peux bouger 
+
+false il y a un obstacle devant 
+\end{DoxyReturn}
+
+
+Definition at line 125 of file terrain.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 4
+\mbox{\Hypertarget{classterrain_aac1ac15ea2b7c01d83fd0ba03a3ed46d}\label{classterrain_aac1ac15ea2b7c01d83fd0ba03a3ed46d}} 
+\index{terrain@{terrain}!setTerrain@{setTerrain}}
+\index{setTerrain@{setTerrain}!terrain@{terrain}}
+\doxysubsubsection{\texorpdfstring{setTerrain()}{setTerrain()}}
+{\footnotesize\ttfamily char terrain\+::set\+Terrain (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+modifie le caractère du terrain 
+
+Modifie la valeur du terrain.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char la valeur en x y 
+\end{DoxyReturn}
+
+
+Definition at line 108 of file terrain.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{terrain_8h}{terrain.\+h}}\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{terrain_8cpp}{terrain.\+cpp}}\end{DoxyCompactItemize}

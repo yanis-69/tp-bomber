@@ -1,0 +1,42 @@
+digraph "/home/yaya/Documents/projet/src/text.cpp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/yaya/Documents\l/projet/src/text.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="unistd.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Wintxt.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wintxt_8h.html",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="text.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$text_8h.html",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="jeu.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$jeu_8h.html",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="joueur.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$joueur_8h.html",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="terrain.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$terrain_8h.html",tooltip=" "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="bombe.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bombe_8h.html",tooltip=" "];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="SDL2/SDL.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Timer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_timer_8h.html",tooltip=" "];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Adversaire.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_adversaire_8h.html",tooltip=" "];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="SDL2/SDL_audio.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="SDL2/SDL_timer.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+}

@@ -1,0 +1,150 @@
+.TH "src/text.cpp" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/text.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include 'Wintxt\&.h'\fP
+.br
+\fC#include 'text\&.h'\fP
+.br
+\fC#include 'jeu\&.h'\fP
+.br
+\fC#include 'bombe\&.h'\fP
+.br
+\fC#include 'SDL2/SDL\&.h'\fP
+.br
+\fC#include 'SDL2/SDL_audio\&.h'\fP
+.br
+\fC#include 'SDL2/SDL_timer\&.h'\fP
+.br
+\fC#include 'Adversaire\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBtxtAff\fP (\fBWinTXT\fP &win, const \fBJeu\fP &jeu)"
+.br
+.ti -1c
+.RI "void \fBmenuaff\fP (\fBWinTXT\fP &win, const char t[9][57])"
+.br
+.ti -1c
+.RI "void \fBtxt_boucle\fP (\fBJeu\fP &jeu)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "const char \fBmenu\fP [9][57]"
+.br
+.RI "menu d'affichage du d�but "
+.ti -1c
+.RI "const char \fBfin_J1_mort\fP [9][57]"
+.br
+.RI "menu de mort du joueur principale "
+.ti -1c
+.RI "const char \fBfin_J1_gagne\fP [9][57]"
+.br
+.RI "menu de victoire du joueuer principale "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void menuaff (\fBWinTXT\fP & win, const char t[9][57])"
+
+.PP
+Definition at line 97 of file text\&.cpp\&.
+.SS "void txt_boucle (\fBJeu\fP & jeu)"
+g�re l'ordi plac� cot� haut droit
+.PP
+g�re l'ordi plac� cot� Bas Gauche
+.PP
+g�re l'ordi plac� cot� Bas Droit
+.PP
+g�re les d�placements du joueur principale
+.PP
+affiche l'�cran de victoire *****************************
+.PP
+affiche game over quand le joueur *****************
+.PP
+Definition at line 115 of file text\&.cpp\&.
+.SS "void txtAff (\fBWinTXT\fP & win, const \fBJeu\fP & jeu)"
+
+.PP
+Definition at line 60 of file text\&.cpp\&.
+.SH "Variable Documentation"
+.PP 
+.SS "const char fin_J1_gagne[9][57]"
+\fBInitial value:\fP
+.PP
+.nf
+=
+{
+    "                                                   ",
+    "     *****************************************     ",
+    "     *                                       *     ",
+    "     *              Felicitation             *     ",
+    "     *                                       *     ",
+    "     *  Vous avez epuisez toutes les vies    *     ",
+    "     *       de vos adversaires              *     ",
+    "     *****************************************     ",
+    "                                                   "
+}
+.fi
+.PP
+menu de victoire du joueuer principale 
+.PP
+Definition at line 46 of file text\&.cpp\&.
+.SS "const char fin_J1_mort[9][57]"
+\fBInitial value:\fP
+.PP
+.nf
+=
+{
+    "                                                   ",
+    "     *****************************************     ",
+    "     *                                       *     ",
+    "     *              Game Over                *     ",
+    "     *                                       *     ",
+    "     *  Vous avez epuisez toutes vos vies    *     ",
+    "     *                                       *     ",
+    "     *****************************************     ",
+    "                                                   "
+}
+.fi
+.PP
+menu de mort du joueur principale 
+.PP
+Definition at line 32 of file text\&.cpp\&.
+.SS "const char menu[9][57]"
+\fBInitial value:\fP
+.PP
+.nf
+=
+{
+    "                                                   ",
+    "     *****************************************     ",
+    "     *                                       *     ",
+    "     *  Bienvenue dans Le Jeu Bomberman      *     ",
+    "     *                                       *     ",
+    "     *  Appuyer sur Y pour commencer le jeu  *     ",
+    "     *                                       *     ",
+    "     *****************************************     ",
+    "                                                   "
+}
+.fi
+.PP
+menu d'affichage du d�but 
+.PP
+Definition at line 18 of file text\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

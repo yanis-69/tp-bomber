@@ -1,0 +1,639 @@
+.TH "Jeu" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Jeu
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <jeu\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBInit_clip\fP ()"
+.br
+.RI "Initialise les clips d'animation pour les quatres entités\&. "
+.ti -1c
+.RI "\fBJeu\fP ()"
+.br
+.RI "Construct a new \fBJeu\fP:: \fBJeu\fP object\&. "
+.ti -1c
+.RI "\fBterrain\fP & \fBgetTerrain\fP ()"
+.br
+.RI "récupère un terrain "
+.ti -1c
+.RI "\fBjoueur\fP & \fBgetjoueurp\fP ()"
+.br
+.RI "récupère l'ordi "
+.ti -1c
+.RI "\fBbombe\fP & \fBgetBombep\fP ()"
+.br
+.RI "récupère la bombe de l'ordi "
+.ti -1c
+.RI "\fBjoueur\fP & \fBgetjoueur\fP ()"
+.br
+.RI "récupère le joueur "
+.ti -1c
+.RI "\fBbombe\fP & \fBgetBombe\fP ()"
+.br
+.RI "récupère la bombe du joueur "
+.ti -1c
+.RI "\fBjoueur\fP & \fBgetjoueur2\fP ()"
+.br
+.RI "récupère l'ordi "
+.ti -1c
+.RI "\fBbombe\fP & \fBgetBombe2\fP ()"
+.br
+.RI "récupère la bombe de l'ordi 2 "
+.ti -1c
+.RI "\fBjoueur\fP & \fBgetjoueur3\fP ()"
+.br
+.RI "récupère l'ordi "
+.ti -1c
+.RI "\fBbombe\fP & \fBgetBombe3\fP ()"
+.br
+.RI "récupère la bombe de l'ordi 3 "
+.ti -1c
+.RI "const \fBterrain\fP & \fBGetConstTerrain\fP () const"
+.br
+.RI "récupère un terrain "
+.ti -1c
+.RI "const \fBjoueur\fP & \fBGetConstJoueur\fP () const"
+.br
+.RI "récupère un joueur "
+.ti -1c
+.RI "const \fBbombe\fP & \fBGetConstBombe\fP () const"
+.br
+.RI "récupère la bombe du joueur "
+.ti -1c
+.RI "const \fBjoueur\fP & \fBGetConstJoueurp\fP () const"
+.br
+.RI "récupère un ordi "
+.ti -1c
+.RI "const \fBbombe\fP & \fBGetConstBombep\fP () const"
+.br
+.RI "récupère la bombe de l'ordi "
+.ti -1c
+.RI "const \fBjoueur\fP & \fBGetConstJoueur2\fP () const"
+.br
+.RI "récupère un ordi "
+.ti -1c
+.RI "const \fBbombe\fP & \fBGetConstBombe2\fP () const"
+.br
+.RI "récupère la bombe de l'ordi 2 "
+.ti -1c
+.RI "const \fBjoueur\fP & \fBGetConstJoueur3\fP () const"
+.br
+.RI "récupère un ordi "
+.ti -1c
+.RI "const \fBbombe\fP & \fBGetConstBombe3\fP () const"
+.br
+.RI "récupère la bombe de l'ordi 3 "
+.ti -1c
+.RI "bool \fBActionClavier\fP (const char touche)"
+.br
+.RI "bouge le joueur selon la touche appuyé "
+.ti -1c
+.RI "void \fBexplosion\fP (\fBbombe\fP &b, \fBterrain\fP &t, \fBjoueur\fP &j, \fBjoueur\fP &jp, \fBjoueur\fP &jp2, \fBjoueur\fP &jp3)"
+.br
+.RI "gère l'explosion de la bombe "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "SDL_Surface * \fBclipsLeft_j1\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsRight_j1\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsUp_j1\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsDown_j1\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsLeft_j2\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsRight_j2\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsUp_j2\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsDown_j2\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsLeft_j3\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsRight_j3\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsUp_j3\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsDown_j3\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsLeft_j4\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsRight_j4\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsUp_j4\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclipsDown_j4\fP [6]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclips_actuel_j1\fP = \fBclipsDown_j1\fP[0]"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclips_actuel_j2\fP"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclips_actuel_j3\fP"
+.br
+.ti -1c
+.RI "SDL_Surface * \fBclips_actuel_j4\fP"
+.br
+.ti -1c
+.RI "\fBTimer\fP \fBtemps\fP"
+.br
+.ti -1c
+.RI "float \fBactualtime\fP"
+.br
+.ti -1c
+.RI "float \fBlasttime\fP"
+.br
+.ti -1c
+.RI "float \fBactualtime_j2\fP = 0"
+.br
+.ti -1c
+.RI "float \fBlasttime_j2\fP = 0"
+.br
+.ti -1c
+.RI "float \fBactualtime_j3\fP = 0"
+.br
+.ti -1c
+.RI "float \fBlasttime_j3\fP = 0"
+.br
+.ti -1c
+.RI "float \fBactualtime_j4\fP = 0"
+.br
+.ti -1c
+.RI "float \fBlasttime_j4\fP = 0"
+.br
+.ti -1c
+.RI "\fBAdversaire\fP \fBa\fP"
+.br
+.ti -1c
+.RI "bool \fBactive_j1\fP"
+.br
+.ti -1c
+.RI "bool \fBactive_j2\fP"
+.br
+.ti -1c
+.RI "bool \fBactive_j3\fP =true"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 9 of file jeu\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Jeu::Jeu ()"
+
+.PP
+Construct a new \fBJeu\fP:: \fBJeu\fP object\&. 
+.PP
+Definition at line 10 of file jeu\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool Jeu::ActionClavier (const char touche)"
+
+.PP
+bouge le joueur selon la touche appuyé 
+.PP
+\fBParameters\fP
+.RS 4
+\fItouche\fP prend en paramètre la touche appuyé 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true 
+.PP
+false return toujours false 
+.RE
+.PP
+
+.PP
+Definition at line 200 of file jeu\&.cpp\&.
+.SS "void Jeu::explosion (\fBbombe\fP & b, \fBterrain\fP & tn, \fBjoueur\fP & j, \fBjoueur\fP & jp, \fBjoueur\fP & j2, \fBjoueur\fP & j3)"
+
+.PP
+gère l'explosion de la bombe 
+.PP
+\fBParameters\fP
+.RS 4
+\fIb\fP pend en paarmètre le bombe à exploser 
+.br
+\fItn\fP prend en paramètre le terrain 
+.br
+\fIj\fP prend en paramètre le joeuur 
+.br
+\fIjp\fP prend en paramètre l'ordi 
+.br
+\fIj2\fP prend en paramètre l'ordi 2 
+.br
+\fIj3\fP prend en paramètre l'ordi 3 
+.RE
+.PP
+
+.PP
+Definition at line 230 of file jeu\&.cpp\&.
+.SS "\fBbombe\fP & Jeu::getBombe ()"
+
+.PP
+récupère la bombe du joueur 
+.PP
+\fBReturns\fP
+.RS 4
+bombe& la bombe du joueur 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file jeu\&.cpp\&.
+.SS "\fBbombe\fP & Jeu::getBombe2 ()"
+
+.PP
+récupère la bombe de l'ordi 2 
+.PP
+\fBReturns\fP
+.RS 4
+bombe& la bombe de l'ordi 2 
+.RE
+.PP
+
+.PP
+Definition at line 60 of file jeu\&.cpp\&.
+.SS "\fBbombe\fP & Jeu::getBombe3 ()"
+
+.PP
+récupère la bombe de l'ordi 3 
+.PP
+\fBReturns\fP
+.RS 4
+bombe& la bombe de l'ordi 3 
+.RE
+.PP
+
+.PP
+Definition at line 69 of file jeu\&.cpp\&.
+.SS "\fBbombe\fP & Jeu::getBombep ()"
+
+.PP
+récupère la bombe de l'ordi 
+.PP
+\fBReturns\fP
+.RS 4
+bombe& la bombe de l'ordi 
+.RE
+.PP
+
+.PP
+Definition at line 50 of file jeu\&.cpp\&.
+.SS "const \fBbombe\fP & Jeu::GetConstBombe () const"
+
+.PP
+récupère la bombe du joueur 
+.PP
+\fBReturns\fP
+.RS 4
+const bombe& bombe& la bombe du joueur 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file jeu\&.cpp\&.
+.SS "const \fBbombe\fP & Jeu::GetConstBombe2 () const"
+
+.PP
+récupère la bombe de l'ordi 2 
+.PP
+\fBReturns\fP
+.RS 4
+const bombe& bombe& la bombe de l'ordi 2 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file jeu\&.cpp\&.
+.SS "const \fBbombe\fP & Jeu::GetConstBombe3 () const"
+
+.PP
+récupère la bombe de l'ordi 3 
+.PP
+\fBReturns\fP
+.RS 4
+const bombe& bombe& la bombe de l'ordi 3 
+.RE
+.PP
+
+.PP
+Definition at line 108 of file jeu\&.cpp\&.
+.SS "const \fBbombe\fP & Jeu::GetConstBombep () const"
+
+.PP
+récupère la bombe de l'ordi 
+.PP
+\fBReturns\fP
+.RS 4
+const bombe& bombe& la bombe de l'ordi 
+.RE
+.PP
+
+.PP
+Definition at line 89 of file jeu\&.cpp\&.
+.SS "const \fBjoueur\fP & Jeu::GetConstJoueur () const"
+
+.PP
+récupère un joueur 
+.PP
+\fBReturns\fP
+.RS 4
+const joueur& return un joueur 
+.RE
+.PP
+
+.PP
+Definition at line 158 of file jeu\&.cpp\&.
+.SS "const \fBjoueur\fP & Jeu::GetConstJoueur2 () const"
+
+.PP
+récupère un ordi 
+.PP
+\fBReturns\fP
+.RS 4
+const joueur& return un ordi 
+.RE
+.PP
+
+.PP
+Definition at line 178 of file jeu\&.cpp\&.
+.SS "const \fBjoueur\fP & Jeu::GetConstJoueur3 () const"
+
+.PP
+récupère un ordi 
+.PP
+\fBReturns\fP
+.RS 4
+const joueur& return un ordi 
+.RE
+.PP
+
+.PP
+Definition at line 188 of file jeu\&.cpp\&.
+.SS "const \fBjoueur\fP & Jeu::GetConstJoueurp () const"
+
+.PP
+récupère un ordi 
+.PP
+\fBReturns\fP
+.RS 4
+const joueur& return un ordi 
+.RE
+.PP
+
+.PP
+Definition at line 168 of file jeu\&.cpp\&.
+.SS "const \fBterrain\fP & Jeu::GetConstTerrain () const"
+
+.PP
+récupère un terrain 
+.PP
+\fBReturns\fP
+.RS 4
+const terrain& return un terrain 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file jeu\&.cpp\&.
+.SS "\fBjoueur\fP & Jeu::getjoueur ()"
+
+.PP
+récupère le joueur 
+.PP
+\fBReturns\fP
+.RS 4
+joueur& return le joueur 
+.RE
+.PP
+
+.PP
+Definition at line 118 of file jeu\&.cpp\&.
+.SS "\fBjoueur\fP & Jeu::getjoueur2 ()"
+
+.PP
+récupère l'ordi 
+.PP
+\fBReturns\fP
+.RS 4
+joueur& return l'ordi 
+.RE
+.PP
+
+.PP
+Definition at line 138 of file jeu\&.cpp\&.
+.SS "\fBjoueur\fP & Jeu::getjoueur3 ()"
+
+.PP
+récupère l'ordi 
+.PP
+\fBReturns\fP
+.RS 4
+joueur& return l'ordi 
+.RE
+.PP
+
+.PP
+Definition at line 148 of file jeu\&.cpp\&.
+.SS "\fBjoueur\fP & Jeu::getjoueurp ()"
+
+.PP
+récupère l'ordi 
+.PP
+\fBReturns\fP
+.RS 4
+joueur& return l'ordi 
+.RE
+.PP
+
+.PP
+Definition at line 128 of file jeu\&.cpp\&.
+.SS "\fBterrain\fP & Jeu::getTerrain ()"
+
+.PP
+récupère un terrain 
+.PP
+\fBReturns\fP
+.RS 4
+terrain& un terrain 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file jeu\&.cpp\&.
+.SS "void Jeu::Init_clip ()"
+
+.PP
+Initialise les clips d'animation pour les quatres entités\&. 
+.PP
+Definition at line 363 of file jeu\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBAdversaire\fP Jeu::a"
+
+.PP
+Definition at line 42 of file jeu\&.h\&.
+.SS "bool Jeu::active_j1"
+
+.PP
+Definition at line 72 of file jeu\&.h\&.
+.SS "bool Jeu::active_j2"
+
+.PP
+Definition at line 72 of file jeu\&.h\&.
+.SS "bool Jeu::active_j3 =true"
+
+.PP
+Definition at line 72 of file jeu\&.h\&.
+.SS "float Jeu::actualtime"
+
+.PP
+Definition at line 33 of file jeu\&.h\&.
+.SS "float Jeu::actualtime_j2 = 0"
+
+.PP
+Definition at line 34 of file jeu\&.h\&.
+.SS "float Jeu::actualtime_j3 = 0"
+
+.PP
+Definition at line 36 of file jeu\&.h\&.
+.SS "float Jeu::actualtime_j4 = 0"
+
+.PP
+Definition at line 38 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clips_actuel_j1 = \fBclipsDown_j1\fP[0]"
+
+.PP
+Definition at line 27 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clips_actuel_j2"
+
+.PP
+Definition at line 28 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clips_actuel_j3"
+
+.PP
+Definition at line 29 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clips_actuel_j4"
+
+.PP
+Definition at line 30 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsDown_j1[6]"
+
+.PP
+Definition at line 23 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsDown_j2[6]"
+
+.PP
+Definition at line 24 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsDown_j3[6]"
+
+.PP
+Definition at line 25 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsDown_j4[6]"
+
+.PP
+Definition at line 26 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clipsLeft_j1[6]"
+
+.PP
+Definition at line 23 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clipsLeft_j2[6]"
+
+.PP
+Definition at line 24 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clipsLeft_j3[6]"
+
+.PP
+Definition at line 25 of file jeu\&.h\&.
+.SS "SDL_Surface* Jeu::clipsLeft_j4[6]"
+
+.PP
+Definition at line 26 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsRight_j1[6]"
+
+.PP
+Definition at line 23 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsRight_j2[6]"
+
+.PP
+Definition at line 24 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsRight_j3[6]"
+
+.PP
+Definition at line 25 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsRight_j4[6]"
+
+.PP
+Definition at line 26 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsUp_j1[6]"
+
+.PP
+Definition at line 23 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsUp_j2[6]"
+
+.PP
+Definition at line 24 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsUp_j3[6]"
+
+.PP
+Definition at line 25 of file jeu\&.h\&.
+.SS "SDL_Surface * Jeu::clipsUp_j4[6]"
+
+.PP
+Definition at line 26 of file jeu\&.h\&.
+.SS "float Jeu::lasttime"
+
+.PP
+Definition at line 33 of file jeu\&.h\&.
+.SS "float Jeu::lasttime_j2 = 0"
+
+.PP
+Definition at line 35 of file jeu\&.h\&.
+.SS "float Jeu::lasttime_j3 = 0"
+
+.PP
+Definition at line 37 of file jeu\&.h\&.
+.SS "float Jeu::lasttime_j4 = 0"
+
+.PP
+Definition at line 39 of file jeu\&.h\&.
+.SS "\fBTimer\fP Jeu::temps"
+
+.PP
+Definition at line 31 of file jeu\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

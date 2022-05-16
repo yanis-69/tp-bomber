@@ -1,0 +1,16 @@
+digraph "joueur::Setvie"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="joueur::Setvie",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="modifie la vie acutelle"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Jeu::explosion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jeu.html#abdb2f0f98d08b1ef635987569525d17c",tooltip="gère l'explosion de la bombe"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="boucle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$affiche_8h.html#aabc3dc0e047350ca7cb06acf1414f306",tooltip="boucle de jeu"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="txt_boucle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$text_8h.html#ac02ace423a2a7071ca853a3eeb3a7f16",tooltip=" "];
+}

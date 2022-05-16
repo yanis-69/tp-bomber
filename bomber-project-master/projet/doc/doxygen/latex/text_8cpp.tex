@@ -1,0 +1,178 @@
+\hypertarget{text_8cpp}{}\doxysection{/home/yaya/\+Documents/projet/src/text.cpp File Reference}
+\label{text_8cpp}\index{/home/yaya/Documents/projet/src/text.cpp@{/home/yaya/Documents/projet/src/text.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Wintxt.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}text.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}jeu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}bombe.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L2/\+S\+D\+L.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L2/\+S\+D\+L\+\_\+audio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L2/\+S\+D\+L\+\_\+timer.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Adversaire.\+h\char`\"{}}\newline
+Include dependency graph for text.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{text_8cpp_afde74a955ef9ff6e1307ae8e4912487b}{txt\+Aff}} (\mbox{\hyperlink{class_win_t_x_t}{Win\+T\+XT}} \&win, const \mbox{\hyperlink{class_jeu}{Jeu}} \&jeu)
+\item 
+void \mbox{\hyperlink{text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae}{menuaff}} (\mbox{\hyperlink{class_win_t_x_t}{Win\+T\+XT}} \&win, const char t\mbox{[}9\mbox{]}\mbox{[}57\mbox{]})
+\item 
+void \mbox{\hyperlink{text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e}{txt\+\_\+boucle}} (\mbox{\hyperlink{class_jeu}{Jeu}} \&jeu)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const char \mbox{\hyperlink{text_8cpp_aae79cbd670611ac965b11a0b232cc35e}{menu}} \mbox{[}9\mbox{]}\mbox{[}57\mbox{]}
+\begin{DoxyCompactList}\small\item\em menu d\textquotesingle{}affichage du d{\ucr}but \end{DoxyCompactList}\item 
+const char \mbox{\hyperlink{text_8cpp_a71dccf9354be57cb77536a552f5e916b}{fin\+\_\+\+J1\+\_\+mort}} \mbox{[}9\mbox{]}\mbox{[}57\mbox{]}
+\begin{DoxyCompactList}\small\item\em menu de mort du joueur principale \end{DoxyCompactList}\item 
+const char \mbox{\hyperlink{text_8cpp_a618f4b703d1ace24097dd06f06e64d49}{fin\+\_\+\+J1\+\_\+gagne}} \mbox{[}9\mbox{]}\mbox{[}57\mbox{]}
+\begin{DoxyCompactList}\small\item\em menu de victoire du joueuer principale \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae}\label{text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae}} 
+\index{text.cpp@{text.cpp}!menuaff@{menuaff}}
+\index{menuaff@{menuaff}!text.cpp@{text.cpp}}
+\doxysubsubsection{\texorpdfstring{menuaff()}{menuaff()}}
+{\footnotesize\ttfamily void menuaff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_win_t_x_t}{Win\+T\+XT}} \&}]{win,  }\item[{const char}]{t\mbox{[}9\mbox{]}\mbox{[}57\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 97 of file text.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e}\label{text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e}} 
+\index{text.cpp@{text.cpp}!txt\_boucle@{txt\_boucle}}
+\index{txt\_boucle@{txt\_boucle}!text.cpp@{text.cpp}}
+\doxysubsubsection{\texorpdfstring{txt\_boucle()}{txt\_boucle()}}
+{\footnotesize\ttfamily void txt\+\_\+boucle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_jeu}{Jeu}} \&}]{jeu }\end{DoxyParamCaption})}
+
+g{\ucr}re l\textquotesingle{}ordi plac{\ucr} cot{\ucr} haut droit
+
+g{\ucr}re l\textquotesingle{}ordi plac{\ucr} cot{\ucr} Bas Gauche
+
+g{\ucr}re l\textquotesingle{}ordi plac{\ucr} cot{\ucr} Bas Droit
+
+g{\ucr}re les d{\ucr}placements du joueur principale
+
+affiche l\textquotesingle{}{\ucr}cran de victoire $\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$
+
+affiche game over quand le joueur $\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$$\ast$
+
+Definition at line 115 of file text.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{text_8cpp_afde74a955ef9ff6e1307ae8e4912487b}\label{text_8cpp_afde74a955ef9ff6e1307ae8e4912487b}} 
+\index{text.cpp@{text.cpp}!txtAff@{txtAff}}
+\index{txtAff@{txtAff}!text.cpp@{text.cpp}}
+\doxysubsubsection{\texorpdfstring{txtAff()}{txtAff()}}
+{\footnotesize\ttfamily void txt\+Aff (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_win_t_x_t}{Win\+T\+XT}} \&}]{win,  }\item[{const \mbox{\hyperlink{class_jeu}{Jeu}} \&}]{jeu }\end{DoxyParamCaption})}
+
+
+
+Definition at line 60 of file text.\+cpp.
+
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{text_8cpp_a618f4b703d1ace24097dd06f06e64d49}\label{text_8cpp_a618f4b703d1ace24097dd06f06e64d49}} 
+\index{text.cpp@{text.cpp}!fin\_J1\_gagne@{fin\_J1\_gagne}}
+\index{fin\_J1\_gagne@{fin\_J1\_gagne}!text.cpp@{text.cpp}}
+\doxysubsubsection{\texorpdfstring{fin\_J1\_gagne}{fin\_J1\_gagne}}
+{\footnotesize\ttfamily const char fin\+\_\+\+J1\+\_\+gagne\mbox{[}9\mbox{]}\mbox{[}57\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \textcolor{stringliteral}{"                                                   "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *****************************************     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *              Felicitation             *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *  Vous avez epuisez toutes les vies    *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *       de vos adversaires              *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *****************************************     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"                                                   "}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+menu de victoire du joueuer principale 
+
+
+
+Definition at line 46 of file text.\+cpp.
+
+\mbox{\Hypertarget{text_8cpp_a71dccf9354be57cb77536a552f5e916b}\label{text_8cpp_a71dccf9354be57cb77536a552f5e916b}} 
+\index{text.cpp@{text.cpp}!fin\_J1\_mort@{fin\_J1\_mort}}
+\index{fin\_J1\_mort@{fin\_J1\_mort}!text.cpp@{text.cpp}}
+\doxysubsubsection{\texorpdfstring{fin\_J1\_mort}{fin\_J1\_mort}}
+{\footnotesize\ttfamily const char fin\+\_\+\+J1\+\_\+mort\mbox{[}9\mbox{]}\mbox{[}57\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \textcolor{stringliteral}{"                                                   "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *****************************************     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *              Game Over                *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *  Vous avez epuisez toutes vos vies    *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *****************************************     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"                                                   "}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+menu de mort du joueur principale 
+
+
+
+Definition at line 32 of file text.\+cpp.
+
+\mbox{\Hypertarget{text_8cpp_aae79cbd670611ac965b11a0b232cc35e}\label{text_8cpp_aae79cbd670611ac965b11a0b232cc35e}} 
+\index{text.cpp@{text.cpp}!menu@{menu}}
+\index{menu@{menu}!text.cpp@{text.cpp}}
+\doxysubsubsection{\texorpdfstring{menu}{menu}}
+{\footnotesize\ttfamily const char menu\mbox{[}9\mbox{]}\mbox{[}57\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{    \textcolor{stringliteral}{"                                                   "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *****************************************     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *  Bienvenue dans Le Jeu Bomberman      *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *  Appuyer sur Y pour commencer le jeu  *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *                                       *     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"     *****************************************     "},}
+\DoxyCodeLine{    \textcolor{stringliteral}{"                                                   "}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+menu d\textquotesingle{}affichage du d{\ucr}but 
+
+
+
+Definition at line 18 of file text.\+cpp.
+

@@ -1,0 +1,224 @@
+\hypertarget{classbombe}{}\doxysection{bombe Class Reference}
+\label{classbombe}\index{bombe@{bombe}}
+
+
+{\ttfamily \#include $<$bombe.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classbombe_a1f55162f6ac46190a5e964b2b5eb6379}{Setx}} (int xe)
+\begin{DoxyCompactList}\small\item\em modifie la position de x \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classbombe_a1db5859ac1712036e9d3d4911eaae703}{Sety}} (int ye)
+\begin{DoxyCompactList}\small\item\em modifie la position de y \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classbombe_ad073269da4c1f12fb8509c71fefef956}{get\+Bombe\+\_\+x}} () const
+\begin{DoxyCompactList}\small\item\em récupère la position de la bombe en x \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c}{get\+Bombe\+\_\+y}} () const
+\begin{DoxyCompactList}\small\item\em récupère la position de la bombe en y \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classbombe_af9469251263f7dd56fe9dcb0131c9da8}{bombe}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classbombe_af9469251263f7dd56fe9dcb0131c9da8}{bombe\+::bombe}} object. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classjoueur}{joueur}} \& \mbox{\hyperlink{classbombe_aa6c58b1934dd405e6110b6a60c663507}{Get\+Const\+Joueur}} () const
+\item 
+void \mbox{\hyperlink{classbombe_a68fe8d188a858d68f62706263461be07}{pose}} ()
+\begin{DoxyCompactList}\small\item\em réduit le nombre de bombe disponible \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classbombe_ac69c6229e6a52066f2b8dd93656cb094}{nb\+\_\+bombe}}
+\begin{DoxyCompactList}\small\item\em initialise le nombre de bombe disponible \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classbombe_a716af72436071aaf358bf58512212093}{estpose}}
+\begin{DoxyCompactList}\small\item\em si la bombe est posé passe a true \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 5 of file bombe.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbombe_af9469251263f7dd56fe9dcb0131c9da8}\label{classbombe_af9469251263f7dd56fe9dcb0131c9da8}} 
+\index{bombe@{bombe}!bombe@{bombe}}
+\index{bombe@{bombe}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{bombe()}{bombe()}}
+{\footnotesize\ttfamily bombe\+::bombe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classbombe_af9469251263f7dd56fe9dcb0131c9da8}{bombe\+::bombe}} object. 
+
+
+
+Definition at line 6 of file bombe.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbombe_ad073269da4c1f12fb8509c71fefef956}\label{classbombe_ad073269da4c1f12fb8509c71fefef956}} 
+\index{bombe@{bombe}!getBombe\_x@{getBombe\_x}}
+\index{getBombe\_x@{getBombe\_x}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{getBombe\_x()}{getBombe\_x()}}
+{\footnotesize\ttfamily int bombe\+::get\+Bombe\+\_\+x (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+récupère la position de la bombe en x 
+
+\begin{DoxyReturn}{Returns}
+int
+
+int la position de la bombe en x 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file bombe.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 0
+\mbox{\Hypertarget{classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c}\label{classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c}} 
+\index{bombe@{bombe}!getBombe\_y@{getBombe\_y}}
+\index{getBombe\_y@{getBombe\_y}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{getBombe\_y()}{getBombe\_y()}}
+{\footnotesize\ttfamily int bombe\+::get\+Bombe\+\_\+y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+récupère la position de la bombe en y 
+
+\begin{DoxyReturn}{Returns}
+int
+
+int la position de la bombe en y 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file bombe.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 1
+\mbox{\Hypertarget{classbombe_aa6c58b1934dd405e6110b6a60c663507}\label{classbombe_aa6c58b1934dd405e6110b6a60c663507}} 
+\index{bombe@{bombe}!GetConstJoueur@{GetConstJoueur}}
+\index{GetConstJoueur@{GetConstJoueur}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{GetConstJoueur()}{GetConstJoueur()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classjoueur}{joueur}}\& bombe\+::\+Get\+Const\+Joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classbombe_a68fe8d188a858d68f62706263461be07}\label{classbombe_a68fe8d188a858d68f62706263461be07}} 
+\index{bombe@{bombe}!pose@{pose}}
+\index{pose@{pose}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{pose()}{pose()}}
+{\footnotesize\ttfamily void bombe\+::pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+réduit le nombre de bombe disponible 
+
+réduit le nombre de bombe lorqu\textquotesingle{}on pose
+
+Definition at line 63 of file bombe.\+cpp.
+
+\mbox{\Hypertarget{classbombe_a1f55162f6ac46190a5e964b2b5eb6379}\label{classbombe_a1f55162f6ac46190a5e964b2b5eb6379}} 
+\index{bombe@{bombe}!Setx@{Setx}}
+\index{Setx@{Setx}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{Setx()}{Setx()}}
+{\footnotesize\ttfamily int bombe\+::\+Setx (\begin{DoxyParamCaption}\item[{int}]{xe }\end{DoxyParamCaption})}
+
+
+
+modifie la position de x 
+
+actualise la position en x
+
+
+\begin{DoxyParams}{Parameters}
+{\em xe} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em xe} & nouveau x \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int la nouvelle position de x 
+\end{DoxyReturn}
+
+
+Definition at line 21 of file bombe.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{classbombe_a1db5859ac1712036e9d3d4911eaae703}\label{classbombe_a1db5859ac1712036e9d3d4911eaae703}} 
+\index{bombe@{bombe}!Sety@{Sety}}
+\index{Sety@{Sety}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{Sety()}{Sety()}}
+{\footnotesize\ttfamily int bombe\+::\+Sety (\begin{DoxyParamCaption}\item[{int}]{ye }\end{DoxyParamCaption})}
+
+
+
+modifie la position de y 
+
+acutalise la position de la bombe en y
+
+
+\begin{DoxyParams}{Parameters}
+{\em ye} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em ye} & nouveau y \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int la nouvelle position de la bombe en y 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file bombe.\+cpp.
+
+Here is the caller graph for this function\+:
+% FIG 3
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classbombe_a716af72436071aaf358bf58512212093}\label{classbombe_a716af72436071aaf358bf58512212093}} 
+\index{bombe@{bombe}!estpose@{estpose}}
+\index{estpose@{estpose}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{estpose}{estpose}}
+{\footnotesize\ttfamily bool bombe\+::estpose}
+
+
+
+si la bombe est posé passe a true 
+
+
+
+Definition at line 60 of file bombe.\+h.
+
+\mbox{\Hypertarget{classbombe_ac69c6229e6a52066f2b8dd93656cb094}\label{classbombe_ac69c6229e6a52066f2b8dd93656cb094}} 
+\index{bombe@{bombe}!nb\_bombe@{nb\_bombe}}
+\index{nb\_bombe@{nb\_bombe}!bombe@{bombe}}
+\doxysubsubsection{\texorpdfstring{nb\_bombe}{nb\_bombe}}
+{\footnotesize\ttfamily int bombe\+::nb\+\_\+bombe}
+
+
+
+initialise le nombre de bombe disponible 
+
+
+
+Definition at line 48 of file bombe.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{bombe_8h}{bombe.\+h}}\item 
+/home/yaya/\+Documents/projet/src/\mbox{\hyperlink{bombe_8cpp}{bombe.\+cpp}}\end{DoxyCompactItemize}

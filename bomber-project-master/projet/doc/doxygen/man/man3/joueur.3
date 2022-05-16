@@ -1,0 +1,249 @@
+.TH "joueur" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+joueur
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <joueur\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBjoueur\fP ()"
+.br
+.RI "Construct a new \fBjoueur::joueur\fP object\&. "
+.ti -1c
+.RI "void \fBgauche\fP (const \fBterrain\fP &t)"
+.br
+.RI "bouge si possible le joeuur à gauche "
+.ti -1c
+.RI "void \fBdroite\fP (const \fBterrain\fP &t)"
+.br
+.RI "bouge si possible le joeuur à droite "
+.ti -1c
+.RI "void \fBhaut\fP (const \fBterrain\fP &t)"
+.br
+.RI "bouge si possible le joeuur en haut "
+.ti -1c
+.RI "void \fBbas\fP (const \fBterrain\fP &t)"
+.br
+.RI "bouge si possible le joeuur en bas "
+.ti -1c
+.RI "int \fBget_jtue\fP () const"
+.br
+.RI "obtient le nombre de tué "
+.ti -1c
+.RI "int \fBSet_jtue\fP (int j)"
+.br
+.RI "actualise le nombre de joeur tué "
+.ti -1c
+.RI "int \fBgetX\fP () const"
+.br
+.RI "obtient la position en x "
+.ti -1c
+.RI "int \fBgetY\fP () const"
+.br
+.RI "obtient la postiion en y "
+.ti -1c
+.RI "void \fBSetx\fP (int y)"
+.br
+.RI "acutalise la position en x "
+.ti -1c
+.RI "void \fBSety\fP (int x)"
+.br
+.RI "acutalise la position en y "
+.ti -1c
+.RI "int \fBgetvie\fP () const"
+.br
+.RI "récupère la vie "
+.ti -1c
+.RI "int \fBSetvie\fP (int v)"
+.br
+.RI "acutalise la vie du joueur "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file joueur\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "joueur::joueur ()"
+
+.PP
+Construct a new \fBjoueur::joueur\fP object\&. 
+.PP
+Definition at line 7 of file joueur\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void joueur::bas (const \fBterrain\fP & t)"
+
+.PP
+bouge si possible le joeuur en bas 
+.PP
+\fBParameters\fP
+.RS 4
+\fIt\fP prend paramètre le terrain 
+.RE
+.PP
+
+.PP
+Definition at line 70 of file joueur\&.cpp\&.
+.SS "void joueur::droite (const \fBterrain\fP & t)"
+
+.PP
+bouge si possible le joeuur à droite 
+.PP
+\fBParameters\fP
+.RS 4
+\fIt\fP prend paramètre le terrain 
+.RE
+.PP
+
+.PP
+Definition at line 50 of file joueur\&.cpp\&.
+.SS "void joueur::gauche (const \fBterrain\fP & t)"
+
+.PP
+bouge si possible le joeuur à gauche 
+.PP
+\fBParameters\fP
+.RS 4
+\fIt\fP prend paramètre le terrain 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file joueur\&.cpp\&.
+.SS "int joueur::get_jtue () const"
+
+.PP
+obtient le nombre de tué 
+.PP
+\fBReturns\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 122 of file joueur\&.cpp\&.
+.SS "int joueur::getvie () const"
+
+.PP
+récupère la vie 
+.PP
+\fBReturns\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 132 of file joueur\&.cpp\&.
+.SS "int joueur::getX () const"
+
+.PP
+obtient la position en x 
+.PP
+\fBReturns\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 102 of file joueur\&.cpp\&.
+.SS "int joueur::getY () const"
+
+.PP
+obtient la postiion en y 
+.PP
+\fBReturns\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 112 of file joueur\&.cpp\&.
+.SS "void joueur::haut (const \fBterrain\fP & t)"
+
+.PP
+bouge si possible le joeuur en haut 
+.PP
+\fBParameters\fP
+.RS 4
+\fIt\fP prend paramètre le terrain 
+.RE
+.PP
+
+.PP
+Definition at line 60 of file joueur\&.cpp\&.
+.SS "int joueur::Set_jtue (int j)"
+
+.PP
+actualise le nombre de joeur tué 
+.PP
+\fBParameters\fP
+.RS 4
+\fIj\fP prend en paramètre un int 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int 
+.RE
+.PP
+
+.PP
+Definition at line 92 of file joueur\&.cpp\&.
+.SS "int joueur::Setvie (int v)"
+
+.PP
+acutalise la vie du joueur 
+.PP
+\fBParameters\fP
+.RS 4
+\fIv\fP prend en paramètre le nouvelle vie 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+int return le nombre de vie actuelle 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file joueur\&.cpp\&.
+.SS "void joueur::Setx (int y)"
+
+.PP
+acutalise la position en x 
+.PP
+\fBParameters\fP
+.RS 4
+\fIy\fP return la nouvelle position en x 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file joueur\&.cpp\&.
+.SS "void joueur::Sety (int x)"
+
+.PP
+acutalise la position en y 
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP return la nouvelle position en y 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file joueur\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

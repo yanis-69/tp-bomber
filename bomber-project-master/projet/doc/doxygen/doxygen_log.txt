@@ -1,0 +1,913 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory /home/yaya/Documents/projet
+Searching for files in directory /home/yaya/Documents/projet/bin
+Searching for files in directory /home/yaya/Documents/projet/data
+Searching for files in directory /home/yaya/Documents/projet/data/Niveaux
+Searching for files in directory /home/yaya/Documents/projet/data/Niveaux/1
+Searching for files in directory /home/yaya/Documents/projet/data/Niveaux/2
+Searching for files in directory /home/yaya/Documents/projet/data/Niveaux/3
+Searching for files in directory /home/yaya/Documents/projet/data/Sprites
+Searching for files in directory /home/yaya/Documents/projet/data/Sprites/Bomberman
+Searching for files in directory /home/yaya/Documents/projet/data/Sprites/Items
+Searching for files in directory /home/yaya/Documents/projet/data/Sprites/Ordi1
+Searching for files in directory /home/yaya/Documents/projet/data/Sprites/Ordi2
+Searching for files in directory /home/yaya/Documents/projet/data/Sprites/Ordi3
+Searching for files in directory /home/yaya/Documents/projet/doc
+Searching for files in directory /home/yaya/Documents/projet/doc/man
+Searching for files in directory /home/yaya/Documents/projet/doc/man/man3
+Searching for files in directory /home/yaya/Documents/projet/obj
+Searching for files in directory /home/yaya/Documents/projet/obj/Debug
+Searching for files in directory /home/yaya/Documents/projet/src
+Reading and parsing tag files
+Parsing files
+Preprocessing /home/yaya/Documents/projet/doc/doxygen_log.txt...
+Parsing file /home/yaya/Documents/projet/doc/doxygen_log.txt...
+Preprocessing /home/yaya/Documents/projet/src/Adversaire.cpp...
+Parsing file /home/yaya/Documents/projet/src/Adversaire.cpp...
+Preprocessing /home/yaya/Documents/projet/src/Adversaire.h...
+Parsing file /home/yaya/Documents/projet/src/Adversaire.h...
+Preprocessing /home/yaya/Documents/projet/src/affich.cpp...
+Parsing file /home/yaya/Documents/projet/src/affich.cpp...
+Preprocessing /home/yaya/Documents/projet/src/affiche.h...
+Parsing file /home/yaya/Documents/projet/src/affiche.h...
+Preprocessing /home/yaya/Documents/projet/src/bombe.cpp...
+Parsing file /home/yaya/Documents/projet/src/bombe.cpp...
+Preprocessing /home/yaya/Documents/projet/src/bombe.h...
+Parsing file /home/yaya/Documents/projet/src/bombe.h...
+Preprocessing /home/yaya/Documents/projet/src/carte.cpp...
+Parsing file /home/yaya/Documents/projet/src/carte.cpp...
+Preprocessing /home/yaya/Documents/projet/src/jeu.cpp...
+Parsing file /home/yaya/Documents/projet/src/jeu.cpp...
+Preprocessing /home/yaya/Documents/projet/src/jeu.h...
+Parsing file /home/yaya/Documents/projet/src/jeu.h...
+Preprocessing /home/yaya/Documents/projet/src/joueur.cpp...
+Parsing file /home/yaya/Documents/projet/src/joueur.cpp...
+Preprocessing /home/yaya/Documents/projet/src/joueur.h...
+Parsing file /home/yaya/Documents/projet/src/joueur.h...
+Preprocessing /home/yaya/Documents/projet/src/main.cpp...
+Parsing file /home/yaya/Documents/projet/src/main.cpp...
+Preprocessing /home/yaya/Documents/projet/src/terrain.cpp...
+Parsing file /home/yaya/Documents/projet/src/terrain.cpp...
+Preprocessing /home/yaya/Documents/projet/src/terrain.h...
+Parsing file /home/yaya/Documents/projet/src/terrain.h...
+Preprocessing /home/yaya/Documents/projet/src/text.cpp...
+Parsing file /home/yaya/Documents/projet/src/text.cpp...
+Preprocessing /home/yaya/Documents/projet/src/text.h...
+Parsing file /home/yaya/Documents/projet/src/text.h...
+Preprocessing /home/yaya/Documents/projet/src/Timer.cpp...
+Parsing file /home/yaya/Documents/projet/src/Timer.cpp...
+Preprocessing /home/yaya/Documents/projet/src/Timer.h...
+Parsing file /home/yaya/Documents/projet/src/Timer.h...
+Preprocessing /home/yaya/Documents/projet/src/Wintxt.cpp...
+Parsing file /home/yaya/Documents/projet/src/Wintxt.cpp...
+Preprocessing /home/yaya/Documents/projet/src/Wintxt.h...
+Parsing file /home/yaya/Documents/projet/src/Wintxt.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Parsing code for file doxygen_log.txt...
+Generating code for file /home/yaya/Documents/projet/src/Adversaire.cpp...
+Generating code for file /home/yaya/Documents/projet/src/Adversaire.h...
+Generating code for file /home/yaya/Documents/projet/src/affich.cpp...
+Generating code for file /home/yaya/Documents/projet/src/affiche.h...
+Generating code for file /home/yaya/Documents/projet/src/bombe.cpp...
+Generating code for file /home/yaya/Documents/projet/src/bombe.h...
+Generating code for file /home/yaya/Documents/projet/src/carte.cpp...
+Generating code for file /home/yaya/Documents/projet/src/jeu.cpp...
+Generating code for file /home/yaya/Documents/projet/src/jeu.h...
+Generating code for file /home/yaya/Documents/projet/src/joueur.cpp...
+Generating code for file /home/yaya/Documents/projet/src/joueur.h...
+Generating code for file /home/yaya/Documents/projet/src/main.cpp...
+Generating code for file /home/yaya/Documents/projet/src/terrain.cpp...
+Generating code for file /home/yaya/Documents/projet/src/terrain.h...
+Generating code for file /home/yaya/Documents/projet/src/text.cpp...
+Generating code for file /home/yaya/Documents/projet/src/text.h...
+Generating code for file /home/yaya/Documents/projet/src/Timer.cpp...
+Generating code for file /home/yaya/Documents/projet/src/Timer.h...
+Generating code for file /home/yaya/Documents/projet/src/Wintxt.cpp...
+Generating code for file /home/yaya/Documents/projet/src/Wintxt.h...
+Generating file documentation...
+Generating docs for file doxygen_log.txt...
+Generating docs for file /home/yaya/Documents/projet/src/Adversaire.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/Adversaire.h...
+Generating docs for file /home/yaya/Documents/projet/src/affich.cpp...
+Generating call graph for function Aff
+Generating caller graph for function Aff
+Generating call graph for function boucle
+Generating caller graph for function boucle
+Generating docs for file /home/yaya/Documents/projet/src/affiche.h...
+/home/yaya/Documents/projet/src/affiche.h:17: warning: argument 'jeu' from the argument list of boucle has multiple @param documentation sections
+/home/yaya/Documents/projet/src/affiche.h:17: warning: argument 'renderer' from the argument list of boucle has multiple @param documentation sections
+Generating call graph for function boucle
+Generating caller graph for function boucle
+Generating docs for file /home/yaya/Documents/projet/src/bombe.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/bombe.h...
+Generating docs for file /home/yaya/Documents/projet/src/carte.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/jeu.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/jeu.h...
+Generating docs for file /home/yaya/Documents/projet/src/joueur.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/joueur.h...
+Generating docs for file /home/yaya/Documents/projet/src/main.cpp...
+Generating call graph for function main
+Generating docs for file /home/yaya/Documents/projet/src/terrain.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/terrain.h...
+Generating docs for file /home/yaya/Documents/projet/src/text.cpp...
+Generating call graph for function menuaff
+Generating caller graph for function menuaff
+Generating call graph for function txt_boucle
+Generating call graph for function txtAff
+Generating caller graph for function txtAff
+Generating docs for file /home/yaya/Documents/projet/src/text.h...
+Generating call graph for function txt_boucle
+Generating docs for file /home/yaya/Documents/projet/src/Timer.cpp...
+Generating docs for file /home/yaya/Documents/projet/src/Timer.h...
+Generating docs for file /home/yaya/Documents/projet/src/Wintxt.cpp...
+Generating caller graph for function termClear
+Generating caller graph for function termInit
+Generating caller graph for function termMove
+Generating docs for file /home/yaya/Documents/projet/src/Wintxt.h...
+Generating caller graph for function termClear
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound Adversaire...
+/home/yaya/Documents/projet/src/Adversaire.h:45: warning: argument 'jp' from the argument list of Adversaire::action has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:45: warning: argument 'j' from the argument list of Adversaire::action has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:45: warning: argument 'bp' from the argument list of Adversaire::action has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:45: warning: argument 'b' from the argument list of Adversaire::action has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:45: warning: argument 't' from the argument list of Adversaire::action has multiple @param documentation sections
+Generating call graph for function Adversaire::action
+Generating caller graph for function Adversaire::action
+/home/yaya/Documents/projet/src/Adversaire.h:33: warning: argument 't' from the argument list of Adversaire::deplacer has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:33: warning: argument 'j' from the argument list of Adversaire::deplacer has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:33: warning: argument 'direction' from the argument list of Adversaire::deplacer has multiple @param documentation sections
+Generating call graph for function Adversaire::deplacer
+Generating caller graph for function Adversaire::deplacer
+/home/yaya/Documents/projet/src/Adversaire.h:54: warning: argument 'a' from the argument list of Adversaire::rand_a_b has multiple @param documentation sections
+/home/yaya/Documents/projet/src/Adversaire.h:54: warning: argument 'b' from the argument list of Adversaire::rand_a_b has multiple @param documentation sections
+Generating caller graph for function Adversaire::rand_a_b
+Generating docs for compound bombe...
+Generating caller graph for function bombe::getBombe_x
+Generating caller graph for function bombe::getBombe_y
+/home/yaya/Documents/projet/src/bombe.h:23: warning: argument 'xe' from the argument list of bombe::Setx has multiple @param documentation sections
+Generating caller graph for function bombe::Setx
+/home/yaya/Documents/projet/src/bombe.h:30: warning: argument 'ye' from the argument list of bombe::Sety has multiple @param documentation sections
+Generating caller graph for function bombe::Sety
+Generating docs for compound Jeu...
+Generating caller graph for function Jeu::ActionClavier
+Generating call graph for function Jeu::explosion
+Generating caller graph for function Jeu::explosion
+Generating caller graph for function Jeu::getBombe
+Generating caller graph for function Jeu::getBombe2
+Generating caller graph for function Jeu::getBombe3
+Generating caller graph for function Jeu::getBombep
+Generating caller graph for function Jeu::GetConstBombe
+Generating caller graph for function Jeu::GetConstBombe2
+Generating caller graph for function Jeu::GetConstBombe3
+Generating caller graph for function Jeu::GetConstBombep
+Generating caller graph for function Jeu::GetConstJoueur
+Generating caller graph for function Jeu::GetConstJoueur2
+Generating caller graph for function Jeu::GetConstJoueur3
+Generating caller graph for function Jeu::GetConstJoueurp
+Generating caller graph for function Jeu::GetConstTerrain
+Generating caller graph for function Jeu::getjoueur
+Generating caller graph for function Jeu::getjoueur2
+Generating caller graph for function Jeu::getjoueur3
+Generating caller graph for function Jeu::getjoueurp
+Generating caller graph for function Jeu::getTerrain
+Generating caller graph for function Jeu::Init_clip
+Generating docs for compound joueur...
+/home/yaya/Documents/projet/src/joueur.h:55: warning: argument 't' from the argument list of joueur::bas has multiple @param documentation sections
+Generating call graph for function joueur::bas
+/home/yaya/Documents/projet/src/joueur.h:43: warning: argument 't' from the argument list of joueur::droite has multiple @param documentation sections
+Generating call graph for function joueur::droite
+/home/yaya/Documents/projet/src/joueur.h:37: warning: argument 't' from the argument list of joueur::gauche has multiple @param documentation sections
+Generating call graph for function joueur::gauche
+Generating caller graph for function joueur::getvie
+Generating caller graph for function joueur::getX
+Generating caller graph for function joueur::getY
+/home/yaya/Documents/projet/src/joueur.h:49: warning: argument 't' from the argument list of joueur::haut has multiple @param documentation sections
+Generating call graph for function joueur::haut
+/home/yaya/Documents/projet/src/joueur.h:69: warning: argument 'j' from the argument list of joueur::Set_jtue has multiple @param documentation sections
+/home/yaya/Documents/projet/src/joueur.h:107: warning: argument 'v' from the argument list of joueur::Setvie has multiple @param documentation sections
+Generating caller graph for function joueur::Setvie
+/home/yaya/Documents/projet/src/joueur.h:88: warning: argument 'y' from the argument list of joueur::Setx has multiple @param documentation sections
+Generating caller graph for function joueur::Setx
+/home/yaya/Documents/projet/src/joueur.h:94: warning: argument 'x' from the argument list of joueur::Sety has multiple @param documentation sections
+Generating caller graph for function joueur::Sety
+Generating docs for compound mur...
+Generating docs for compound terrain...
+Generating caller graph for function terrain::getDimX
+Generating caller graph for function terrain::getDimY
+/home/yaya/Documents/projet/src/terrain.h:74: warning: argument 'x' from the argument list of terrain::getTerain has multiple @param documentation sections
+/home/yaya/Documents/projet/src/terrain.h:74: warning: argument 'y' from the argument list of terrain::getTerain has multiple @param documentation sections
+Generating caller graph for function terrain::getTerain
+Generating caller graph for function terrain::getXY
+/home/yaya/Documents/projet/src/terrain.h:56: warning: argument 'x' from the argument list of terrain::PositionValide has multiple @param documentation sections
+/home/yaya/Documents/projet/src/terrain.h:56: warning: argument 'y' from the argument list of terrain::PositionValide has multiple @param documentation sections
+Generating caller graph for function terrain::PositionValide
+/home/yaya/Documents/projet/src/terrain.h:84: warning: argument 'x' from the argument list of terrain::setTerrain has multiple @param documentation sections
+/home/yaya/Documents/projet/src/terrain.h:84: warning: argument 'y' from the argument list of terrain::setTerrain has multiple @param documentation sections
+/home/yaya/Documents/projet/src/terrain.h:84: warning: argument 'c' from the argument list of terrain::setTerrain has multiple @param documentation sections
+Generating docs for compound Timer...
+Generating caller graph for function Timer::start
+Generating docs for compound WinTXT...
+Generating call graph for function WinTXT::WinTXT
+Generating call graph for function WinTXT::clear
+Generating caller graph for function WinTXT::clear
+Generating call graph for function WinTXT::draw
+Generating caller graph for function WinTXT::draw
+Generating caller graph for function WinTXT::getCh
+Generating call graph for function WinTXT::print
+Generating caller graph for function WinTXT::print
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+Running dot...
+Generating dot graphs using 5 parallel threads...
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_ac814978bebd2a4040c2e5e98a000aabc_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_ac814978bebd2a4040c2e5e98a000aabc_icgraph.pdf"'
+Running dot for graph 1/201
+Running dot for graph 2/201
+Running dot for graph 3/201
+Running dot for graph 4/201
+Running dot for graph 5/201
+Running dot for graph 6/201
+Running dot for graph 7/201
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a88772730ea5241f4c8a4da7a00b92e40_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a88772730ea5241f4c8a4da7a00b92e40_icgraph.pdf"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/terrain_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/terrain_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/joueur_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/joueur_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_a62a70913616eabcbdd0621044c9ecf2d_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_a62a70913616eabcbdd0621044c9ecf2d_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classbombe_a1f55162f6ac46190a5e964b2b5eb6379_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classbombe_a1f55162f6ac46190a5e964b2b5eb6379_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_wintxt_8h_abfddca010a6ceb2c5292c98247a434ce_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_wintxt_8h_abfddca010a6ceb2c5292c98247a434ce_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affiche_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affiche_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_aeab7a7e56961714c31879f1724b908b0_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_aeab7a7e56961714c31879f1724b908b0_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classterrain_a519ffe73d9e51bb75a23c5c897246b15_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classterrain_a519ffe73d9e51bb75a23c5c897246b15_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu__coll__graph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/joueur_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/joueur_8h__incl.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_a94c4f250911d12e57fe40a4edc4f6f74_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_a94c4f250911d12e57fe40a4edc4f6f74_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_aecaafc6b6e676e84cdafcb248b48c9af_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_aecaafc6b6e676e84cdafcb248b48c9af_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_ad471ddd48d2a7c43acccd1204e419527_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_ad471ddd48d2a7c43acccd1204e419527_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a0c71ad5af874df87d732fb3c72224856_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a0c71ad5af874df87d732fb3c72224856_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8h__incl.pdf"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_ac2092f62ef1098554a9c1f8d8c17652e_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_ac2092f62ef1098554a9c1f8d8c17652e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_timer_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_timer_8h__dep__incl.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_icgraph.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_wintxt_8h_abfddca010a6ceb2c5292c98247a434ce_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_wintxt_8h_abfddca010a6ceb2c5292c98247a434ce_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/jeu_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/jeu_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_timer_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_timer_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classterrain_a03f0a79123d559f2c072dd17fc89d9f7_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classterrain_a03f0a79123d559f2c072dd17fc89d9f7_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a0730adb1f08b1ee3dac8fca7964cf120_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a0730adb1f08b1ee3dac8fca7964cf120_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a9a68241a8c2fea40716d178e3b3af118_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a9a68241a8c2fea40716d178e3b3af118_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8h_ac02ace423a2a7071ca853a3eeb3a7f16_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8h_ac02ace423a2a7071ca853a3eeb3a7f16_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classterrain_af74e60acdf88633cdca5994db09411e7_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classterrain_af74e60acdf88633cdca5994db09411e7_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classbombe_a1db5859ac1712036e9d3d4911eaae703_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classbombe_a1db5859ac1712036e9d3d4911eaae703_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_adcd0602be958ff257ed6f037c30da581_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_adcd0602be958ff257ed6f037c30da581_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_adversaire_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_adversaire_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp_a0038303af38e1a50f24e3d4e33a4635b_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp_a0038303af38e1a50f24e3d4e33a4635b_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_aa86c48e07d7d67e45b59ba5fa309fd7f_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_aa86c48e07d7d67e45b59ba5fa309fd7f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a7e9bf65ddd85c03135ebd0a20f022710_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a7e9bf65ddd85c03135ebd0a20f022710_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_ad0725917b5ae7532c3a517282cf342e9_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_ad0725917b5ae7532c3a517282cf342e9_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_af83a18827593465fc397983c97b4e886_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_af83a18827593465fc397983c97b4e886_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/joueur_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/joueur_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_adversaire_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_adversaire_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/jeu_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/jeu_8h__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_adversaire_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_adversaire_8cpp__incl.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/joueur_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/joueur_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_aecaafc6b6e676e84cdafcb248b48c9af_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_aecaafc6b6e676e84cdafcb248b48c9af_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_adfc48ae1bae9af5c6ca4dc6f4c534176_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_adfc48ae1bae9af5c6ca4dc6f4c534176_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a7eb10e50a81b8039a232453811ae4327_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a7eb10e50a81b8039a232453811ae4327_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affiche_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affiche_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_ad0725917b5ae7532c3a517282cf342e9_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_ad0725917b5ae7532c3a517282cf342e9_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classterrain_a519ffe73d9e51bb75a23c5c897246b15_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classterrain_a519ffe73d9e51bb75a23c5c897246b15_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_timer_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_timer_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_timer_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_timer_8h__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a8cebad13bdb1b971ed739f093fea9cda_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a8cebad13bdb1b971ed739f093fea9cda_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a14687298f4ab8ee9b81cc748fd917286_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a14687298f4ab8ee9b81cc748fd917286_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/terrain_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/terrain_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_af83a18827593465fc397983c97b4e886_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_af83a18827593465fc397983c97b4e886_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_af49910ac956c22758f7117ba2b901be4_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_af49910ac956c22758f7117ba2b901be4_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a0730adb1f08b1ee3dac8fca7964cf120_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a0730adb1f08b1ee3dac8fca7964cf120_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_cgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/joueur_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/joueur_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a407cce45e7f81546540f4f8a9b85ce45_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a407cce45e7f81546540f4f8a9b85ce45_icgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a8ea76dc87d3d6a0630c9db4b9660bf4c_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a8ea76dc87d3d6a0630c9db4b9660bf4c_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classterrain_a2094b312c238ba64064a9039f8e83235_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classterrain_a2094b312c238ba64064a9039f8e83235_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_ad1fc57242b6efa66908401ea7102279c_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_ad1fc57242b6efa66908401ea7102279c_icgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classbombe_ad073269da4c1f12fb8509c71fefef956_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classbombe_ad073269da4c1f12fb8509c71fefef956_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_wintxt_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_wintxt_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affiche_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affiche_8h__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_timer_a3a8b5272198d029779dc9302a54305a8_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_timer_a3a8b5272198d029779dc9302a54305a8_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_adversaire__coll__graph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_adversaire__coll__graph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_adversaire_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_adversaire_8h__incl.pdf"'
+sh: 1: dot: not found
+sh: 1: sh: 1: dot: not found
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_timer_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_timer_8cpp__incl.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu__coll__graph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu__coll__graph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_afe1d6d460afd7a351769aac5c3d79bdb_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_afe1d6d460afd7a351769aac5c3d79bdb_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/bombe_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/bombe_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classterrain_a03f0a79123d559f2c072dd17fc89d9f7_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classterrain_a03f0a79123d559f2c072dd17fc89d9f7_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_wintxt_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_wintxt_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_a94c4f250911d12e57fe40a4edc4f6f74_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_a94c4f250911d12e57fe40a4edc4f6f74_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8cpp_a7428c0ab24d62abd2b88cb9d68eaad9e_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/graph_legend.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/graph_legend.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/jeu_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/jeu_8h__dep__incl.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classterrain_a54d1c0bd769541db3509efe843bc0845_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classterrain_a54d1c0bd769541db3509efe843bc0845_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a7eb10e50a81b8039a232453811ae4327_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a7eb10e50a81b8039a232453811ae4327_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_adfc48ae1bae9af5c6ca4dc6f4c534176_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_adfc48ae1bae9af5c6ca4dc6f4c534176_icgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a14687298f4ab8ee9b81cc748fd917286_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a14687298f4ab8ee9b81cc748fd917286_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a407cce45e7f81546540f4f8a9b85ce45_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a407cce45e7f81546540f4f8a9b85ce45_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a97cd61825d6209a9c11c4bc2eb3a8228_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a97cd61825d6209a9c11c4bc2eb3a8228_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_cgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_af83a18827593465fc397983c97b4e886_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_af83a18827593465fc397983c97b4e886_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_wintxt_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_wintxt_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_ad021d5fb9862b9ea7985f8cef50451e2_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_ad021d5fb9862b9ea7985f8cef50451e2_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_aa86c48e07d7d67e45b59ba5fa309fd7f_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_aa86c48e07d7d67e45b59ba5fa309fd7f_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a9a68241a8c2fea40716d178e3b3af118_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a9a68241a8c2fea40716d178e3b3af118_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affiche_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affiche_8h__incl.png"'
+sh: 1: dot: not found
+Running dot for graph 8/201
+Running dot for graph 9/201
+Running dot for graph 10/201
+Running dot for graph 11/201
+Running dot for graph 12/201
+Running dot for graph 13/201
+Running dot for graph 14/201
+Running dot for graph 15/201
+Running dot for graph 16/201
+Running dot for graph 17/201
+Running dot for graph 18/201
+Running dot for graph 19/201
+Running dot for graph 20/201
+Running dot for graph 21/201
+Running dot for graph 22/201
+Running dot for graph 23/201
+Running dot for graph 24/201
+Running dot for graph 25/201
+Running dot for graph 26/201
+Running dot for graph 27/201
+Running dot for graph 28/201
+Running dot for graph 29/201
+Running dot for graph 30/201
+Running dot for graph 31/201
+Running dot for graph 32/201
+Running dot for graph 33/201
+Running dot for graph 34/201
+Running dot for graph 35/201
+Running dot for graph 36/201
+Running dot for graph 37/201
+Running dot for graph 38/201
+Running dot for graph 39/201
+Running dot for graph 40/201
+Running dot for graph 41/201
+Running dot for graph 42/201
+Running dot for graph 43/201
+Running dot for graph 44/201
+Running dot for graph 45/201
+Running dot for graph 46/201
+Running dot for graph 47/201
+Running dot for graph 48/201
+Running dot for graph 49/201
+Running dot for graph 50/201
+Running dot for graph 51/201
+Running dot for graph 52/201
+Running dot for graph 53/201
+Running dot for graph 54/201
+Running dot for graph 55/201
+Running dot for graph 56/201
+Running dot for graph 57/201
+Running dot for graph 58/201
+Running dot for graph 59/201
+Running dot for graph 60/201
+Running dot for graph 61/201
+Running dot for graph 62/201
+Running dot for graph 63/201
+Running dot for graph 64/201
+Running dot for graph 65/201
+Running dot for graph 66/201
+Running dot for graph 67/201
+Running dot for graph 68/201
+Running dot for graph 69/201
+Running dot for graph 70/201
+Running dot for graph 71/201
+Running dot for graph 72/201
+Running dot for graph 73/201
+Running dot for graph 74/201
+Running dot for graph 75/201
+Running dot for graph 76/201
+Running dot for graph 77/201
+Running dot for graph 78/201
+Running dot for graph 79/201
+Running dot for graph 80/201
+Running dot for graph 81/201
+Running dot for graph 82/201
+Running dot for graph 83/201
+Running dot for graph 84/201
+Running dot for graph 85/201
+Running dot for graph 86/201
+Running dot for graph 87/201
+Running dot for graph 88/201
+Running dot for graph 89/201
+Running dot for graph 90/201
+Running dot for graph 91/201
+Running dot for graph 92/201
+Running dot for graph 93/201
+Running dot for graph 94/201
+Running dot for graph 95/201
+Running dot for graph 96/201
+Running dot for graph 97/201
+Running dot for graph 98/201
+Running dot for graph 99/201
+Running dot for graph 100/201
+Running dot for graph 101/201
+Running dot for graph 102/201
+Running dot for graph 103/201
+Running dot for graph 104/201
+Running dot for graph 105/201
+Running dot for graph 106/201
+Running dot for graph 107/201
+Running dot for graph 108/201
+Running dot for graph 109/201
+Running dot for graph 110/201
+Running dot for graph 111/201
+Running dot for graph 112/201
+Running dot for graph 113/201
+Running dot for graph 114/201
+Running dot for graph 115/201
+Running dot for graph 116/201
+Running dot for graph 117/201
+Running dot for graph 118/201
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_timer_a3a8b5272198d029779dc9302a54305a8_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_timer_a3a8b5272198d029779dc9302a54305a8_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classbombe_a1db5859ac1712036e9d3d4911eaae703_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classbombe_a1db5859ac1712036e9d3d4911eaae703_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/main_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/main_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_wintxt_8cpp_a67191e6d920e10b82b0868cb240228ae_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_wintxt_8cpp_a67191e6d920e10b82b0868cb240228ae_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_adcd0602be958ff257ed6f037c30da581_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_adcd0602be958ff257ed6f037c30da581_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_abdb2f0f98d08b1ef635987569525d17c_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_abdb2f0f98d08b1ef635987569525d17c_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/terrain_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/terrain_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_wintxt_8cpp_a0038303af38e1a50f24e3d4e33a4635b_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_wintxt_8cpp_a0038303af38e1a50f24e3d4e33a4635b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp_abfddca010a6ceb2c5292c98247a434ce_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp_abfddca010a6ceb2c5292c98247a434ce_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_a4301218b5e964987b2d6c03a8b2cf81f_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_a4301218b5e964987b2d6c03a8b2cf81f_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_aa69b8a47e56142aeec7f131dea87d2ec_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_aa69b8a47e56142aeec7f131dea87d2ec_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_aeab7a7e56961714c31879f1724b908b0_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_aeab7a7e56961714c31879f1724b908b0_icgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a1e3546a6e0cbbe41b09683ee9f58e44d_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a1e3546a6e0cbbe41b09683ee9f58e44d_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_abdb2f0f98d08b1ef635987569525d17c_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_abdb2f0f98d08b1ef635987569525d17c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_afe1d6d460afd7a351769aac5c3d79bdb_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_afe1d6d460afd7a351769aac5c3d79bdb_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_adversaire__coll__graph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_adversaire__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a65063c1bd932d1d3cf80217251d88644_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a65063c1bd932d1d3cf80217251d88644_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_adversaire_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_adversaire_8h__dep__incl.png"'
+sh: 1: sh: 1: dot: not founddot: not found
+
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_ac2092f62ef1098554a9c1f8d8c17652e_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_ac2092f62ef1098554a9c1f8d8c17652e_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classterrain_af74e60acdf88633cdca5994db09411e7_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classterrain_af74e60acdf88633cdca5994db09411e7_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a7e9bf65ddd85c03135ebd0a20f022710_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a7e9bf65ddd85c03135ebd0a20f022710_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_a970f12e6816e71032a91611ee8a51a96_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_a970f12e6816e71032a91611ee8a51a96_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a418c66475403586ac57a80eceb409166_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a418c66475403586ac57a80eceb409166_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/bombe_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/bombe_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_abdb2f0f98d08b1ef635987569525d17c_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_abdb2f0f98d08b1ef635987569525d17c_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a8cebad13bdb1b971ed739f093fea9cda_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a8cebad13bdb1b971ed739f093fea9cda_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_adversaire_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_adversaire_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a65063c1bd932d1d3cf80217251d88644_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a65063c1bd932d1d3cf80217251d88644_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a0c71ad5af874df87d732fb3c72224856_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a0c71ad5af874df87d732fb3c72224856_icgraph.png"'
+sh: 1: sh: 1: dot: not found
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/terrain_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/terrain_8cpp__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_ad021d5fb9862b9ea7985f8cef50451e2_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_ad021d5fb9862b9ea7985f8cef50451e2_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classbombe_ad073269da4c1f12fb8509c71fefef956_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classbombe_ad073269da4c1f12fb8509c71fefef956_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affich_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affich_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_abdb2f0f98d08b1ef635987569525d17c_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_abdb2f0f98d08b1ef635987569525d17c_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/joueur_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/joueur_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_af49910ac956c22758f7117ba2b901be4_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_af49910ac956c22758f7117ba2b901be4_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_adversaire_a0003dc1cc9c750ab158ee7553dfa2e35_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_aa69b8a47e56142aeec7f131dea87d2ec_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_aa69b8a47e56142aeec7f131dea87d2ec_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/jeu_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/jeu_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/bombe_8h__dep__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/bombe_8h__dep__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a48413bcd76f9de822d742353849b2b32_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a48413bcd76f9de822d742353849b2b32_icgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affiche_8h_aabc3dc0e047350ca7cb06acf1414f306_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a97cd61825d6209a9c11c4bc2eb3a8228_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a97cd61825d6209a9c11c4bc2eb3a8228_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/main_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/main_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classterrain_a2094b312c238ba64064a9039f8e83235_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classterrain_a2094b312c238ba64064a9039f8e83235_icgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_a1b4cb203533f78bed29498591631f436_icgraph.pdf"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8h_ac02ace423a2a7071ca853a3eeb3a7f16_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8h_ac02ace423a2a7071ca853a3eeb3a7f16_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/affich_8cpp_aabc3dc0e047350ca7cb06acf1414f306_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a8ea76dc87d3d6a0630c9db4b9660bf4c_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a8ea76dc87d3d6a0630c9db4b9660bf4c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classbombe_a9aa3c213fa42cf5290a7efecdc0bc85c_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8cpp_afde74a955ef9ff6e1307ae8e4912487b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_ac814978bebd2a4040c2e5e98a000aabc_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_ac814978bebd2a4040c2e5e98a000aabc_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_ad471ddd48d2a7c43acccd1204e419527_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_ad471ddd48d2a7c43acccd1204e419527_cgraph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_a4301218b5e964987b2d6c03a8b2cf81f_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_a4301218b5e964987b2d6c03a8b2cf81f_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a1e3546a6e0cbbe41b09683ee9f58e44d_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a1e3546a6e0cbbe41b09683ee9f58e44d_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_jeu_a48413bcd76f9de822d742353849b2b32_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_jeu_a48413bcd76f9de822d742353849b2b32_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classterrain_a54d1c0bd769541db3509efe843bc0845_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classterrain_a54d1c0bd769541db3509efe843bc0845_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/text_8cpp_a29a1bfcc6a1169185f63886b9c5bb4ae_cgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_a19dbd2f35d25c70a75f31c1fa29d8961_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_adversaire_a4bbf36e019fb0082f22a0ae7eada3e12_icgraph.png"'
+sh: 1: sh: 1: dot: not found
+dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_cgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affich_8cpp_a4d115f5d70fe281f5781a4c61a1e6573_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/classjoueur_a970f12e6816e71032a91611ee8a51a96_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/classjoueur_a970f12e6816e71032a91611ee8a51a96_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/affich_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/affich_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_ad1fc57242b6efa66908401ea7102279c_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_ad1fc57242b6efa66908401ea7102279c_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp_a67191e6d920e10b82b0868cb240228ae_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/_wintxt_8cpp_a67191e6d920e10b82b0868cb240228ae_icgraph.pdf"'
+sh: 1: sh: 1: dot: not found
+dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_timer_8h__dep__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_timer_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_af83a18827593465fc397983c97b4e886_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_win_t_x_t_af83a18827593465fc397983c97b4e886_cgraph.pdf"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/bombe_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/bombe_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/_wintxt_8cpp_abfddca010a6ceb2c5292c98247a434ce_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/_wintxt_8cpp_abfddca010a6ceb2c5292c98247a434ce_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/bombe_8h__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/bombe_8h__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classjoueur_a62a70913616eabcbdd0621044c9ecf2d_cgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classjoueur_a62a70913616eabcbdd0621044c9ecf2d_cgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a418c66475403586ac57a80eceb409166_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_win_t_x_t_a418c66475403586ac57a80eceb409166_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/class_adversaire_a3b4ce64663eda56d7a3a355cf6e900cd_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/classbombe_a1f55162f6ac46190a5e964b2b5eb6379_icgraph.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/classbombe_a1f55162f6ac46190a5e964b2b5eb6379_icgraph.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/class_jeu_a88772730ea5241f4c8a4da7a00b92e40_icgraph.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/class_jeu_a88772730ea5241f4c8a4da7a00b92e40_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/jeu_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/jeu_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/jeu_8cpp__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/jeu_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/latex/bombe_8cpp__incl.dot" -Tpdf -o "/home/yaya/Documents/projet/doc/latex/bombe_8cpp__incl.pdf"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/yaya/Documents/projet/doc/html/text_8h__incl.dot" -Tpng -o "/home/yaya/Documents/projet/doc/html/text_8h__incl.png"'
+Running dot for graph 119/201
+Running dot for graph 120/201
+Running dot for graph 121/201
+Running dot for graph 122/201
+Running dot for graph 123/201
+Running dot for graph 124/201
+Running dot for graph 125/201
+Running dot for graph 126/201
+Running dot for graph 127/201
+Running dot for graph 128/201
+Running dot for graph 129/201
+Running dot for graph 130/201
+Running dot for graph 131/201
+Running dot for graph 132/201
+Running dot for graph 133/201
+Running dot for graph 134/201
+Running dot for graph 135/201
+Running dot for graph 136/201
+Running dot for graph 137/201
+Running dot for graph 138/201
+Running dot for graph 139/201
+Running dot for graph 140/201
+Running dot for graph 141/201
+Running dot for graph 142/201
+Running dot for graph 143/201
+Running dot for graph 144/201
+Running dot for graph 145/201
+Running dot for graph 146/201
+Running dot for graph 147/201
+Running dot for graph 148/201
+Running dot for graph 149/201
+Running dot for graph 150/201
+Running dot for graph 151/201
+Running dot for graph 152/201
+Running dot for graph 153/201
+Running dot for graph 154/201
+Running dot for graph 155/201
+Running dot for graph 156/201
+Running dot for graph 157/201
+Running dot for graph 158/201
+Running dot for graph 159/201
+Running dot for graph 160/201
+Running dot for graph 161/201
+Running dot for graph 162/201
+Running dot for graph 163/201
+Running dot for graph 164/201
+Running dot for graph 165/201
+Running dot for graph 166/201
+Running dot for graph 167/201
+Running dot for graph 168/201
+Running dot for graph 169/201
+Running dot for graph 170/201
+Running dot for graph 171/201
+Running dot for graph 172/201
+Running dot for graph 173/201
+Running dot for graph 174/201
+Running dot for graph 175/201
+Running dot for graph 176/201
+Running dot for graph 177/201
+Running dot for graph 178/201
+Running dot for graph 179/201
+Running dot for graph 180/201
+Running dot for graph 181/201
+Running dot for graph 182/201
+Running dot for graph 183/201
+Running dot for graph 184/201
+Running dot for graph 185/201
+Running dot for graph 186/201
+Running dot for graph 187/201
+Running dot for graph 188/201
+Running dot for graph 189/201
+Running dot for graph 190/201
+Running dot for graph 191/201
+Running dot for graph 192/201
+Running dot for graph 193/201
+Running dot for graph 194/201
+Running dot for graph 195/201
+Running dot for graph 196/201
+Running dot for graph 197/201
+Running dot for graph 198/201
+Running dot for graph 199/201
+Running dot for graph 200/201
+Running dot for graph 201/201
+Patching output file 1/52
+error: problems opening map file /home/yaya/Documents/projet/doc/html/_adversaire_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+Patching output file 2/52
+error: problem writing FIG 0 figure!
+lookup cache used 402/65536 hits=4148 misses=407
+finished...
+*** Doxygen has finished

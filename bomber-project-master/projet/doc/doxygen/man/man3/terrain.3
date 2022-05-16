@@ -1,0 +1,186 @@
+.TH "terrain" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+terrain
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <terrain\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBterrain\fP ()"
+.br
+.RI "Construct a new \fBterrain::terrain\fP object\&. "
+.ti -1c
+.RI "\fBterrain\fP (const char ter[21][21])"
+.br
+.RI "Construct a new \fBterrain::terrain\fP object\&. "
+.ti -1c
+.RI "bool \fBPositionValide\fP (const int x, const int y) const"
+.br
+.RI "vérifie si il n'y a pas d'obstacle "
+.ti -1c
+.RI "char \fBgetXY\fP (const int x, const int y) const"
+.br
+.RI "récupère la valeur en x et y du terrain "
+.ti -1c
+.RI "char \fBgetTerain\fP (int x, int y) const"
+.br
+.RI "récupère la valeur du terrain en x et y donné "
+.ti -1c
+.RI "char \fBsetTerrain\fP (int x, int y, char c)"
+.br
+.RI "Modifie la valeur du terrain\&. "
+.ti -1c
+.RI "int \fBgetDimX\fP () const"
+.br
+.RI "récupère les dimensions du terrain horizontale "
+.ti -1c
+.RI "int \fBgetDimY\fP () const"
+.br
+.RI "récupère les dimensions du terrain verticale "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 12 of file terrain\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "terrain::terrain ()"
+
+.PP
+Construct a new \fBterrain::terrain\fP object\&. 
+.PP
+Definition at line 40 of file terrain\&.cpp\&.
+.SS "terrain::terrain (const char ter[21][21])"
+
+.PP
+Construct a new \fBterrain::terrain\fP object\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIter\fP 
+.RE
+.PP
+
+.PP
+Definition at line 64 of file terrain\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int terrain::getDimX () const"
+
+.PP
+récupère les dimensions du terrain horizontale 
+.PP
+\fBReturns\fP
+.RS 4
+int les dimensions en x 
+.RE
+.PP
+
+.PP
+Definition at line 156 of file terrain\&.cpp\&.
+.SS "int terrain::getDimY () const"
+
+.PP
+récupère les dimensions du terrain verticale 
+.PP
+\fBReturns\fP
+.RS 4
+int les dimensions en y 
+.RE
+.PP
+
+.PP
+Definition at line 168 of file terrain\&.cpp\&.
+.SS "char terrain::getTerain (int x, int y) const"
+
+.PP
+récupère la valeur du terrain en x et y donné 
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+char la valeur du terrain 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file terrain\&.cpp\&.
+.SS "char terrain::getXY (const int x, const int y) const"
+
+.PP
+récupère la valeur en x et y du terrain 
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+char 
+.RE
+.PP
+
+.PP
+Definition at line 140 of file terrain\&.cpp\&.
+.SS "bool terrain::PositionValide (const int x, const int y) const"
+
+.PP
+vérifie si il n'y a pas d'obstacle 
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true si on peux bouger 
+.PP
+false il y a un obstacle devant 
+.RE
+.PP
+
+.PP
+Definition at line 125 of file terrain\&.cpp\&.
+.SS "char terrain::setTerrain (int x, int y, char c)"
+
+.PP
+Modifie la valeur du terrain\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP 
+.br
+\fIy\fP 
+.br
+\fIc\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+char la valeur en x y 
+.RE
+.PP
+
+.PP
+Definition at line 108 of file terrain\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

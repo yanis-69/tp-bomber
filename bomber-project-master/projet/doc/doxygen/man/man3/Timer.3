@@ -1,0 +1,87 @@
+.TH "Timer" 3 "Mon May 10 2021" "Documentation_Projet_Bomber" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Timer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Timer\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTimer\fP ()"
+.br
+.RI "Construct a new \fBTimer\fP:: \fBTimer\fP object\&. "
+.ti -1c
+.RI "void \fBstart\fP ()"
+.br
+.RI "initialise le temps "
+.ti -1c
+.RI "void \fBstop\fP ()"
+.br
+.ti -1c
+.RI "void \fBpause\fP ()"
+.br
+.ti -1c
+.RI "void \fBunpause\fP ()"
+.br
+.ti -1c
+.RI "int \fBget_ticks\fP ()"
+.br
+.ti -1c
+.RI "bool \fBis_started\fP ()"
+.br
+.ti -1c
+.RI "bool \fBis_paused\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file Timer\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Timer::Timer ()"
+
+.PP
+Construct a new \fBTimer\fP:: \fBTimer\fP object\&. 
+.PP
+Definition at line 10 of file Timer\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int Timer::get_ticks ()"
+
+.PP
+Definition at line 73 of file Timer\&.cpp\&.
+.SS "bool Timer::is_paused ()"
+
+.PP
+Definition at line 100 of file Timer\&.cpp\&.
+.SS "bool Timer::is_started ()"
+
+.PP
+Definition at line 95 of file Timer\&.cpp\&.
+.SS "void Timer::pause ()"
+
+.PP
+Definition at line 44 of file Timer\&.cpp\&.
+.SS "void Timer::start ()"
+
+.PP
+initialise le temps 
+.PP
+Definition at line 23 of file Timer\&.cpp\&.
+.SS "void Timer::stop ()"
+
+.PP
+Definition at line 35 of file Timer\&.cpp\&.
+.SS "void Timer::unpause ()"
+
+.PP
+Definition at line 57 of file Timer\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Documentation_Projet_Bomber from the source code\&.

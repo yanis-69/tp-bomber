@@ -1,0 +1,20 @@
+digraph "Jeu::GetConstJoueur2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Jeu::GetConstJoueur2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="récupère l'ordi 2"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Aff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$affich_8cpp.html#a4d115f5d70fe281f5781a4c61a1e6573",tooltip="s'occupe de l'affichage SDL"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="boucle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$affiche_8h.html#aabc3dc0e047350ca7cb06acf1414f306",tooltip="boucle de jeu"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="txt_boucle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$text_8h.html#ac02ace423a2a7071ca853a3eeb3a7f16",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="txtAff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$text_8cpp.html#afde74a955ef9ff6e1307ae8e4912487b",tooltip=" "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

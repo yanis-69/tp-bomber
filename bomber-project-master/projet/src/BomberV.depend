@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1619523552 source:/home/mohamed/Documents/LIFAP4/projet/src/bombe.cpp
+	"bombe.h"
+
+1619523549 /home/mohamed/Documents/LIFAP4/projet/src/bombe.h
+	"joueur.h"
+
+1619523509 /home/mohamed/Documents/LIFAP4/projet/src/joueur.h
+	"terrain.h"
+
+1619523576 /home/mohamed/Documents/LIFAP4/projet/src/terrain.h
+
+1619523514 source:/home/mohamed/Documents/LIFAP4/projet/src/joueur.cpp
+	"joueur.h"
+
+1619523579 source:/home/mohamed/Documents/LIFAP4/projet/src/terrain.cpp
+	"terrain.h"
+	<iostream>
+	<cassert>
+
+1619523999 source:/home/mohamed/Documents/LIFAP4/projet/src/main.cpp
+	"Wintxt.h"
+	"text.h"
+	"SDL2/SDL.h"
+
+1619523566 /home/mohamed/Documents/LIFAP4/projet/src/Wintxt.h
+
+1619524884 /home/mohamed/Documents/LIFAP4/projet/src/text.h
+	"jeu.h"
+
+1619523543 /home/mohamed/Documents/LIFAP4/projet/src/jeu.h
+	"joueur.h"
+	"bombe.h"
+	"Adversaire.h"
+
+1619524892 /home/mohamed/Documents/LIFAP4/projet/src/Adversaire.h
+	"joueur.h"
+	"terrain.h"
+	"bombe.h"
+
+1619524902 source:/home/mohamed/Documents/LIFAP4/projet/src/Wintxt.cpp
+	"Wintxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1619525155 source:/home/mohamed/Documents/LIFAP4/projet/src/text.cpp
+	<iostream>
+	<windows.h>
+	<unistd.h>
+	"Wintxt.h"
+	"text.h"
+	"jeu.h"
+	"bombe.h"
+	"Adversaire.h"
+
+1619525729 source:/home/mohamed/Documents/LIFAP4/projet/src/Adversaire.cpp
+	"Adversaire.h"
+	<time.h>
+	<stdlib.h>
+
+1619526391 source:/home/mohamed/Documents/LIFAP4/projet/src/jeu.cpp
+	"joueur.h"
+	"jeu.h"
+

@@ -1,0 +1,18 @@
+digraph "Adversaire::deplacer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Adversaire::deplacer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="deplace le joueur j dans une direction donné"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="joueur::getX",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjoueur.html#ac2092f62ef1098554a9c1f8d8c17652e",tooltip="réupère x"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="joueur::getY",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjoueur.html#a970f12e6816e71032a91611ee8a51a96",tooltip="récupère y"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="terrain::PositionValide",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classterrain.html#a54d1c0bd769541db3509efe843bc0845",tooltip="vérifie si la position est valide"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="joueur::Setx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjoueur.html#ad0725917b5ae7532c3a517282cf342e9",tooltip="défini x"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="joueur::Sety",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classjoueur.html#a4301218b5e964987b2d6c03a8b2cf81f",tooltip="défini y"];
+}
